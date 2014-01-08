@@ -26,7 +26,7 @@ class CategoryListView(LoginRequiredMixin, View):
     def get(self, request, *args, **kwargs):
         context = {}
         context['search_form'] = SearchForm()
-        context['object_list'] = CategoryModel.objects.all().order_by('name')
+        context['object_list'] = CategoryModel.objects.all()
         context['departments'] = DepartmentModel.objects.all()
         context['courses'] = []
         return render_to_response('category/categories.html', context, context_instance=RequestContext(self.request))
@@ -34,7 +34,7 @@ class CategoryListView(LoginRequiredMixin, View):
     def post(self, request, *args, **kwargs):
         context = {}
         context['search_form'] = SearchForm()   
-        context['object_list'] = CategoryModel.objects.all().order_by('name')
+        context['object_list'] = CategoryModel.objects.all()
         context['departments'] = DepartmentModel.objects.all()
 
         # department/course form handling
@@ -135,7 +135,7 @@ class ChooseCreateView(LoginRequiredMixin, View):
     def get(self, request, *args, **kwargs):
         context = {}
         context['search_form'] = SearchForm()
-        context['object_list'] = CategoryModel.objects.all().order_by('name')
+        context['object_list'] = CategoryModel.objects.all()
         return render_to_response('category/choose.html', context, context_instance=RequestContext(self.request))
 
     def post(self, request, *args, **kwargs):
