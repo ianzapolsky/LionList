@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  categories/create
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+  
+  <div class="lg">
+
+    <h1>create post</h1>
+
+    <table class="table table-condensed"> 
+
+      <tr class="msg">
+        <td>Choose a post type.</td>
+      </tr>
+
+      {% for category in object_list %}
+        <tr class="item" href="/categories/create/{{ category.slug }}">
+          <td class="left">
+            <a>{{ category.name }}</a>
+          </td>
+        </tr>
+      {% endfor %}
+
+    </table>
+
+  <script>
+    $( ".item" ).click(function() {
+      window.document.location = $( this ).attr("href");
+    });
+  </script>
+
+  </div>
+
+{% endblock %}

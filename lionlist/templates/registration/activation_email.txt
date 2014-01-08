@@ -1,0 +1,10 @@
+Congratulations on creating your new LionList account!
+
+Please visit www.lionlist.org/account/activate/{{ activation_key }} within the next {{ expiration_days }} day(s) to activate your account.
+
+After that, you can login and visit the "edit account" page to change the default email that LionList uses, in case you don't want
+to use your Columbia email address.
+
+Thanks for signing up! 
+
+LionList

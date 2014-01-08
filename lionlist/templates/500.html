@@ -1,0 +1,24 @@
+{% extends 'base_clean.html' %}
+{% load staticfiles %}
+
+{% block title %}
+  500!!
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <h1>Page not found!</h1>
+      <p>Sorry, there was an error on our end and this page couldn't be
+         displayed.
+      </p>
+    </div>
+
+{% endblock %}
+
+

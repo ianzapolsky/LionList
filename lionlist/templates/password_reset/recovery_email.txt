@@ -1,0 +1,19 @@
+{% load i18n %}
+{% load url from future %}
+{% blocktrans with username=user.username %}
+
+
+Hey {{ username }},{% endblocktrans %}
+
+You - or someone pretending to be you - has requested a password reset on your
+account at <a href="http://www.lionlist.org/">lionlist.org</a>.
+
+You can set your new password by following this link:
+
+http://www.lionlist.org{% url "password_reset_reset" token %}
+
+If you don't want to reset your password, simply ignore this email and it will stay unchanged.
+
+Thanks, 
+
+LionList

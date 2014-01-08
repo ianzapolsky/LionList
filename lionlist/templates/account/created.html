@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+  my posts
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <section class="xlg">
+    <h1>my posts</h1>
+
+    <table class="table table-condensed">
+      {% for msg in messages %}
+        <tr class="msg">
+          <td>{{ msg }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+
+    <table class="table table-condensed">
+  
+      {% for post in posts %}
+        {% if post.forsale == "forsale" %}
+        <tr class="item" href="{{ post.get_absolute_url }}">
+        {% else %}
+        <tr class="wanted" href="{{ post.get_absolute_url }}"> 
+        {% endif %}    
+          <td class="left">
+            <a href="/categories/{{ post.category.slug }}/{{ post.slug}}/">{{ post.title }}</a>
+          </td>
+          <td class="left">
+            {{ post.forsale }} for ${{ post.price }}
+          </td>
+          <td class="left">
+            <a href="/categories/{{ post.category.slug }}/{{ post.slug }}/edit">
+            <button class="btn btn-warning btn-xs">edit post</button></a>
+          </td>
+        </tr>
+    {% empty %}
+      <tr class="msg">
+        <td>You have no created posts.</td>
+      </tr>
+    {% endfor %}
+   </table>
+
+  <script>
+
+  $( ".item, .wanted" ).click(function() {
+    window.document.location = $( this ).attr("href");
+  });
+  </script>
+
+ </section>
+
+{% endblock %}

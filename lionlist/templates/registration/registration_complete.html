@@ -1,0 +1,27 @@
+{% extends 'base_clean.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  registration complete
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <h1 class="centered">registration complete!</h1>
+  <h2 class="centered">Please check your 
+    <a href="http://lionmail.columbia.edu">lionmail</a>
+    inbox to find the link to activate your account.
+  </h4>
+  <h4>If you don't find the email there soon, it's possible you could have
+      mistyped your columbia UNI during the registration process. 
+      If you think that might be the case, try 
+      <a href="/account/register/">registering again</a>.
+  </h4>
+
+{% endblock %}
+

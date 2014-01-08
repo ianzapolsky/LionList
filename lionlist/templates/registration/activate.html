@@ -1,0 +1,18 @@
+{% extends 'base_clean.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  activation error
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+  <h1>activation error</h1>
+
+  <h4>You've already used this activation link to activate your account.</h4>
+
+{% endblock %}
+

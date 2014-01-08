@@ -1,0 +1,47 @@
+{% extends 'base_clean.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% load i18n %}
+{% load url from future %}
+
+{% block title %}
+  forgot password
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <h1 class="centered">forgot password?</h1>
+
+  <form class="thin centered form-util" action="{{ url }}" method="post">
+      {% csrf_token %}
+      <p class="msg">Enter your UNI below and we'll email you
+       a link that will allow you reset your password.</p>
+     
+        {% for field in form %}
+          {% if field.errors %}
+           <span class="help-block has-error">
+              {% for error in field.errors %}
+                {% if error == "This field is required." %}
+                  <p class="error">Please enter your UNI.</p>
+                {% else %}
+                  <p class="error">{{ error }}</p>
+                {% endif %}
+              {% endfor %}
+              {% render_field field class+="form-control" placeholder="UNI" %}
+           </span>
+          {% else %}
+          {% render_field field class+="form-control" placeholder="UNI" %}
+          {% endif %}
+        {% endfor %}
+        <button class="btn btn-lg btn-primary btn-block" type="submit">
+          Submit
+        </button>
+      </form>
+
+{% endblock %}
+

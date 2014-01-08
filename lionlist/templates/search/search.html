@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  search
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %} 
+
+
+  <section class="med">
+    <h1>search results</h1>
+    {% if query %}
+    <h3>Results: Posts</h3>
+    <table class="table table-condensed">
+      {% for result in post_list %}
+        <tr class="item"> 
+          <td class="item"><a href="{{ result.object.get_absolute_url }}">{{ result.title }}</a></td>
+          <td class="item">{{ result.object.forsale }} for ${{ result.object.price }}</td>
+        </tr>
+      {% empty %}
+        <tr class="msg">
+          <td class="msg">No results found.</td>
+        </tr>    
+      {% endfor %}
+    </table>
+    
+    <h3>Results: Courses</h3>
+    <table class="table table-condensed">
+        {% for result in course_list %}
+          <tr class="item">
+            <td class="item"><a href="{{ result.object.get_absolute_url }}">{{ result.name }}</a></td>
+          </tr>
+        {% empty %}
+          <tr class="msg">
+            <td class="msg">No results found.</td>
+          </tr>
+        {% endfor %}
+    </table>
+     
+    {% else %}
+    <table class="table table-hover">
+      <tr class="msg">
+        <td>Please enter a query.</td>
+      </tr>
+    </table>
+    {% endif %}
+    </section>
+    
+    <section class="sm">
+    <h1>search</h1>
+    <form method="get" action=".">
+      <table class="table">
+        {% for field in search_form %}
+        <tr>
+          <td>{% render_field field class+="form-control" placeholder="search term" %}</td>
+        </tr>
+        {% endfor %}
+        <tr>
+          <td><button type="submit" class="btn btn-default">search</button></td>
+        </tr>
+      </table>
+    </form>
+    <h1>info:</h1>
+    <p>You can search for general posts by keywords in the title and description,
+       book posts by title and author name, and courses by course name.</p>
+    </section>
+
+{% endblock %}

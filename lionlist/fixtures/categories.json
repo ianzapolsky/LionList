@@ -1,0 +1,66 @@
+[
+  {
+    "model": "category.categorymodel",
+    "pk": 1,
+    "fields": {
+      "name": "books",
+      "slug": "books"
+    }
+  },
+  {
+    "model": "category.categorymodel",
+    "pk": 2,
+    "fields": {
+      "name": "furniture",
+      "slug": "furniture"
+    }
+  },
+  {
+    "model": "category.categorymodel",
+    "pk": 3,
+    "fields": {
+      "name": "appliances",
+      "slug": "appliances"
+    }
+  },
+  {
+    "model": "category.categorymodel",
+    "pk": 4,
+    "fields": {
+      "name": "clothing",
+      "slug": "clothing"
+    }
+  },
+  {
+    "model": "category.categorymodel",
+    "pk": 5,
+    "fields": {
+      "name": "services",
+      "slug": "services"
+    }
+  },
+  {
+    "model": "category.categorymodel",
+    "pk": 6,
+    "fields": {
+      "name": "tickets",
+      "slug": "tickets"
+    }
+  },
+  {
+    "model": "category.categorymodel",
+    "pk": 7,
+    "fields": {
+      "name": "miscellaneous",
+      "slug": "miscellaneous"
+    }
+  },
+  {
+    "model": "category.categorymodel",
+    "pk": 8,
+    "fields": {
+      "name": "electronics",
+      "slug": "electronics"
+    }
+  }
+]

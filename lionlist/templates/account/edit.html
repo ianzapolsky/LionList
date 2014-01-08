@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  edit account
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    
+    <div class="xlg">
+
+    <h1>edit account</h1>
+
+    {% if messages %}
+    <table class="table table-condensed">
+      {% for msg in messages %}
+        <tr class="msg">
+          <td>{{ msg }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+    {% endif %}
+
+    <form class="form-util" action="" method="post">{% csrf_token %}
+      {% for field in form %}
+        {% for error in field.errors %}
+          <p class="error">{{ error }}</p>
+        {% endfor %}
+      {% endfor %}
+      {% for error in form.non_field_errors %}
+        <p class="error">{{ error }}</p>
+      {% endfor %}
+    
+    <span class="help-block">You must enter your current password to make any changes.</span>
+    <input type="password" class="form-control" name="current_password" placeholder="Current password">
+    <hr>
+
+    <span class="help-block">Change your password</span>
+    <input type="password" class="form-control" name="new_password" placeholder="New password">
+    <input type="password" class="form-control" name="new_password_check" placeholder="Confirm new password">
+    <hr>
+
+    <span class="help-block">Change the email address that LionList uses (current: {{ user.get_profile.get_email }})</span>    
+    <input type="text" class="form-control" name="new_email" placeholder="New email">
+    <hr>
+
+    <span class="help-block">Change your campus location (current: {{ user.get_profile.location }})</span>
+    {% render_field form.location class+="form-control input-lg" %}
+   
+    <hr>
+
+    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+    </form>
+    </div>
+
+{% endblock %}
+

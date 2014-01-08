@@ -1,0 +1,53 @@
+{% extends 'base_clean.html' %}
+{% load staticfiles %}
+
+{% block title %}
+  about lionlist
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <h1>What is LionList?</h1>
+      <p>LionList is a like a mix between Craigslist, CULPA,
+      and the Columbia University Facebook group. Come here to
+      connect with other CU students who are selling the things you want, and
+      shopping for the things you're selling.</p>
+      {% if not user.is_authenticated %}
+      <p><a class="btn btn-lg btn-primary btn-block" href="/account/register/">Get started today</a></p>
+      {% endif %}
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h2>End Facebook Spam</h2>
+        <p>Imagine a world where your news feed isn't mobbed by people trying
+        to buy and sell stuff at the beginning and end of every semester.
+        With LionList, shop when you want to, and advertise the things
+        you are selling to people who actually want to buy them.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Organize. Win.</h2>
+        <p>Never sift through Facebook posts looking for "that one guy selling
+           that one book" again. Posts on LionList are organized by category, 
+           and all book posts are organized by department and course, so you 
+           can see exactly what books are being bought and sold by other 
+           students for any class at any time.</p>
+       </div>
+       <div class="col-md-4">
+         <h2>Discover</h2>
+         <p>Books aren't the only thing students want! Buy and sell appliances,
+         dorm furniture, concert tickets, tutoring services or language classes,
+         and more from your fellow Columbians over LionList as well.
+       </div>
+     </div>
+
+
+{% endblock %}
+
+

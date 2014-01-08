@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  courses
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <div class="med">
+  <h1>courses</h1>
+    
+  <table class="table table-condensed">
+    <tr class="msg">
+      <td>Click a department to see a drop-down list of courses within that 
+          department.
+      </td>
+    </tr>
+
+    {% for department in departments %}
+      <tr class="item">
+        <a> 
+          <td class="cntr">
+            <a>{{ department.name }}</a>
+          </td>
+        </a>
+      </tr>
+
+      {% for course in department.get_courses %}
+        
+          <tr class="wanted" href="{{ course.get_absolute_url }}">
+            <td class="left">
+              &nbsp&nbsp
+              <a>{{ course.name }}</a>
+            </td>
+          </tr>
+      {% endfor %} 
+
+    {% endfor %}
+  </table>
+
+  <script>
+
+    $( document ).ready(function() {
+      $( ".item" ).click();
+    }); 
+
+    $('.item').click(function(){
+      $(this).nextUntil('tr.item').slideToggle(10);
+    });  
+
+    $( ".wanted" ).click(function() {
+      window.document.location = $( this ).attr("href");
+    });
+  </script>
+
+  </div>
+
+  <div class="sm">
+    <h1>can't find your class?</h1>
+    <p>If you don't see the course that you're looking for, shoot us an email at 
+       <a href="mailto:lionlistcu@gmail.com">lionlistcu@gmail.com</a> with the
+       course's department, name, and number and we'll check for its existence
+       and then put it up as fast as we can.</p>
+  </div>
+
+{% endblock %}

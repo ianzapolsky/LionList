@@ -1,0 +1,12 @@
+15
+Intro to Information Science
+Intro to Computer Science and Programming in Java
+Intro to Computer Programming in MATLAB
+Honors Intro to Computer Science
+Data Structures in Java
+Essential Data Structures
+Honors Data Structures and Algorithms
+Advanced Programming
+Discrete Mathematics
+Computational Linear Algebra
+Computer Science Theory

@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+  categories
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <div class="med">
+
+    <h1>categories</h1>
+ 
+    <table class="table table-condensed">
+      <tr class="msg">
+        <td>Click a category to see all posts of that type.</td>
+        <td></td>
+      </tr>
+
+      {% for category in object_list %}
+        <tr class="item" href="{{ category.get_absolute_url }}">
+          <td class="title">
+            <a>{{ category.name }}</a>
+          </td>
+          <td class="title">({{ category.get_count }})</td>
+        </tr>
+      {% endfor %}
+
+    </table>
+
+  </div>
+
+  <!-- Tested and approved department/class form -->
+
+  <div class="sm">
+
+    <h1>looking for books?</h1>
+    <p>Jump straight to a course:</h1>
+
+    <form method="post" class="form-util" action="/categories/books/" 
+    id="class_form">
+      {% csrf_token %}
+      <p class="error" id="class_form_errors"></p>
+      <table class="table">
+
+        <!-- department selector -->
+        <tr><td>
+          <select class="form-control input-sm" name="department" 
+          id="select_department">
+	          <option value="empty">department</option>
+	          {% for d in departments %}
+	            <option value="{{ d.name }}"{% ifequal d.name department.name %} 
+              selected="selected"{% endifequal %}>
+                {{ d.name }}
+              </option>
+	          {% endfor %}
+          </select>
+        </td></tr>
+
+        <!-- course selector -->
+        <tr><td>
+          <select class="form-control input-sm" name="course" 
+          id="select_course">
+	          <option value="empty">course</option>
+	          {% for c in courses %}
+	            <option value="{{ c.name }}">{{ c.name }}</option>
+	          {% endfor %}
+          </select>
+        </td></tr>
+
+        <tr><td>
+          <button type="submit" class="btn btn-primary btn-sm btn-block" 
+          value="submit" id="course_submit">
+            submit
+          </button>
+        </tr></td>
+
+      </table>
+
+    </form>
+
+  <script>
+    $( ".item" ).click(function() {
+        window.document.location = $( this ).attr("href");
+    });
+
+    $( "#select_department" ).change(function () {
+        $( "#class_form" ).get(0).setAttribute("action", "/categories/");
+	    $( "#class_form" ).submit();
+    });
+ 
+    $( "#class_form" ).submit(function(event) {
+      if ( $( "#class_form" ).get(0).getAttribute("action") != "/categories/" ) {
+        if ( $( "#select_course" ).val() === "empty" ) {
+          $( "#class_form_errors" ).text( "please specify a department and course." ).show();
+          event.preventDefault();
+        }
+      }
+    });
+
+  </script>
+
+  </div>
+
+{% endblock %}

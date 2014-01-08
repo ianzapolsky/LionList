@@ -1,0 +1,28 @@
+{% extends 'base_clean.html' %}
+{% load staticfiles %}
+
+{% block title %}
+  contact lionlist
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <div class="jumbotron">
+    <h1>We'd love to hear from you!</h1>
+    <p>Questions, suggestions, missing courses or departments, bugs, and 
+       whatever else is on your mind is always welcome at 
+       <a href="mailto:lionlistcu@gmail.com">lionlistcu@gmail.com</a>.
+    </p>
+    <p>
+      <a class="btn btn-lg btn-primary btn-block" href="mailto:lionlistcu@gmail.com">
+      Send us an email</a>
+    </p>
+  </div>
+
+{% endblock %}
+
+

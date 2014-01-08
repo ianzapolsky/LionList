@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  edit post
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+    <section class="lg">
+
+      <h1> 
+        edit <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+      </h1>
+
+      <form class="form-util" enctype="multipart/form-data" action="" 
+      method="post">
+        {% csrf_token %}
+     
+        {% for field in form %}
+          {% if field.errors %}
+            <p class="error">error in {{ field.label }}</p>
+          {% endif %}
+        {% endfor %}        
+
+      <table class="super-condensed table table-hover table-condensed">
+        {% for field in form %}
+          <tr>
+            <td>
+              <span class="help-block">{{ field.label }} {{ field.help_text }}</span>
+              {% if field.errors %}
+                <span class="help-block has-error ">
+                  {% for error in field.errors %}
+                    <p class="error">{{ error }}</p>
+                  {% endfor %}
+                {% render_field field class+="form-control" rows="4" %}
+                </span>
+              {% else %}
+              {% render_field field class+="form-control" rows="4" %}
+              {% endif %}
+
+           </td>
+         </tr>
+      {% endfor %}
+      <tr>
+        <td><button class="btn btn-lg btn-success btn-block" type="submit">Submit</button>
+      </tr>
+      </form>
+    </table>
+  </section>
+
+  <section class="sm">
+    <h1>delete:</h1>
+      <p>Careful, once you click it's gone forever</p>
+      <form action="" method="post" id="delete_form">{% csrf_token %}
+        <input type="hidden" name="delete_post" value="delete">
+        <button type="submit" class="btn btn-danger">Delete</button>  
+      </form>
+  </section>
+
+{% endblock %}
+

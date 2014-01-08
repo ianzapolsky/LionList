@@ -1,0 +1,103 @@
+{% extends 'base_clean.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% load i18n %}
+{% load url from future %}
+
+{% block title %}
+  reset password
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+    <h1 class="centered">reset password</h2>
+   
+    <form id="reset-form" class="centered thin form-util" action="{{ url }}" method="post">
+      {% csrf_token %}
+      <p class="msg">Enter and confirm a new password.</p>
+        
+      <!-- CUSTOM ERRORS -->
+      {% for error in form.non_field_errors %}
+        <p class="error">{{ error }}</p>
+      {% endfor %}
+
+      {% for field in form %}
+        {% for error in field.errors %}
+          {% if error != "This field is required." %}
+            <p class="error">{{ error }}</p>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      <!-- PASSWORD RESET FORM -->
+
+      <!--<form id="reset-form" class="form-util" method="post" action="{{ url }}"> 
+        {% csrf_token %}
+        {% render_field form.password1 class+="form-control" placeholder="Password" %}
+        {% render_field form.password2 class+="form-control" placeholder="Confirm password" %} i
+        -->
+
+        <div id="password-div" class="form-group">
+          <p id="password-label" class="error"></p>
+          <input id="password1" type="password" class="form-control" name="password1"
+          placeholder="New Password">
+          <input id="password2" type="password" class="form-control" name="password2"
+          placeholder="Confirm New Password">
+        </div>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+      </form>
+
+  <script>
+
+    var password_error = false;
+
+    $( '#password1, #password2' ).change(function() {
+
+        var password1 = $( '#password1' ).val();
+        var password2 = $( '#password2' ).val();
+
+        $.ajax({
+          url: '/account/ajax/validate_passwords/'+password1+'/'+password2+'/',
+          type: 'GET',
+          async: true,
+          dataType: 'json',
+          success: function( data ) {
+            if (data.error === true) {
+              $( '#password-label' ).html(data.msg);
+              $( '#password-div' ).removeClass('has-success');
+              $( '#password-div' ).addClass('has-error');
+              password_error = true;
+            } else {
+              $( '#password-label' ).html('');
+              $( '#password-div' ).removeClass('has-error');
+              $( '#password-div' ).addClass('has-success');
+              password_error = false;
+            }
+          }
+        });
+      });
+
+      $( '#reset-form' ).submit(function(event) {
+      if ($( '#password1' ).val() === '' || $( '#password2' ).val() === '') {
+        $( '#password-label' ).html('Please enter and confirm your password');
+        $( '#password-div' ).removeClass('has-success');
+        $( '#password-div' ).addClass('has-error');
+        password_error = true;
+      }
+      if (password_error === true) {
+        event.preventDefault();
+      }
+    });
+
+
+
+  </script>
+
+{% endblock %}
+

@@ -1,0 +1,10 @@
+46
+Intro to Statistics
+Intro to Statistical Reasoning
+Applied Linear Regression Analysis
+Applied Statistical Methods
+Intro to Statistical Inference
+Intro to Probability
+Data Analysis
+Data Mining
+Probability

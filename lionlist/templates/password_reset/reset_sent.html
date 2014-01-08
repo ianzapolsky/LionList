@@ -1,0 +1,33 @@
+{% extends 'base_clean.html' %}
+
+{% load i18n %}
+{% load url from future %}
+
+{% block title %}
+  reset sent
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+
+  {% if invalid %}
+    <h1 class="centered">I'm sorry, something went wrong...</h1>
+    <h4 class="centered">
+      <a href="/account/forgot/">Click here to return to the forgot password
+       page and try again
+      </a>.
+    </h4>
+  {% else %}
+  <h1 class="centered">reset email sent!</h1>
+  <h4 class="centered">We just sent you an email with a link in it that 
+   will let you reset your password.
+  </h4>
+  {% endif %}
+    
+
+{% endblock %}
+

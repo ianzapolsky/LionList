@@ -1,0 +1,21 @@
+38
+General Physics I
+General Physics II
+Honors General Physics I
+Honors General Physics II
+Intro to Electricity, Magnetism and Optics
+Intro to Mechanics and Thermodynamics
+Intro to Classical and Quantum Waves
+Intro to Experimental Physics
+Physics I: Mechanics and Relativity
+Physics II: Thermodynamics, Electricity and Magnetism
+Physics for Poets I
+Physics for Poets II
+Waves, Optics and Quantum Physics
+Accelerated Physics I
+Accelerated Physics II
+Mechanics
+Electricy and Magnetism
+From Quarks to the Cosmos: Applications of Modern Physics
+Electromagnetic Theory
+Quantum Mechanics I

@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  courses/{{ course.name }}
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <section class="med">
+    <h1><a href="/courses/">courses</a>/<a href="{{ course.get_absolute_url }}">{{ course.name }}</a>
+    </h1>
+
+    <table class="table table-condensed">
+	  {% for post in object_list %}
+        {% if post.forsale == "forsale" %}
+        <tr class="item">
+        {% else %}
+        <tr class="wanted">
+        {% endif %}
+          <td class="left">
+            <a href="{{ post.get_absolute_url }}/">{{ post.title }}</a>
+          </td>
+          <td class="cntr">{{ post.forsale }} for ${{ post.price }}</td>
+        </tr>
+      {% empty %}
+        <tr class="msg"> 
+          <td>I'm sorry, there don't appear to be any posts here.</td>
+        </tr>
+	  {% endfor %}
+    </table>
+  </section>
+
+  <section class="sm">
+  <h1>filter results</h1>
+
+    <p id="filter_form_errors"></p>
+    {% for field in filter_form.non_field_errors %}
+      <p>{{ error }}</p>
+    {% endfor %}
+    {% for field in filter_form %}
+      {% for error in field.errors %}
+        <p>{{ error }}</p>
+      {% endfor %}
+    {% endfor %}
+
+  <form action="" method="post" id="filter_form">{% csrf_token %}
+    <table class="super-condensed table table-condensed">
+      {% for field in filter_form %}
+        <tr><td>
+        <span class="help-block">{{ field.label }}
+        {% render_field field class+="form-control input-sm" %} 
+        </span>
+        </td></tr>
+      {% endfor %}
+      <tr><td>
+        <button type="submit" class="btn btn-sm btn-primary btn-block">submit</button>
+      </td></tr>
+    </table>
+  </form>
+
+  </section>
+
+{% endblock %}

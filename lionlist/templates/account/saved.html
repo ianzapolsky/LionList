@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  bookmarked posts
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+   
+  <div class="xlg">
+  <h1>bookmarked posts</h1>
+
+    <table class="table table-condensed">
+      {% for msg in messages %}
+        <tr class="msg">
+          <td>{{ msg }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+
+  <table class="table table-condensed">
+    {% for post in posts %}
+      {% if post.forsale == "forsale" %}
+      <tr class="item" href="{{ post.get_absolute_url }}"> 
+      {% else %}
+      <tr class="wanted" href="{{ post.get_absolute_url }}"> 
+      {% endif %}
+        <td class="left"><a href="/categories/{{ post.category.slug }}/{{ post.slug }}/">{{ post.title }}</a></td>
+        <td class="left">{{ post.forsale }} for ${{ post.price }}</td>
+        <td class="cntr">
+          <a href="mailto:{{ post.poster.get_email }}">
+            <button class="btn btn-primary btn-xs">contact poster</button>
+          </a>
+        </td>
+        <td class="cntr"><form action="" method="post">{%csrf_token %}
+          <input type="hidden" name="post_title" value="{{ post.title }}" />
+          <button type="submit" class="btn btn-danger btn-xs">delete bookmark</button>
+          </form></td>
+      </tr>
+    {% empty %}
+      <tr class="msg"><td>You have no bookmarked posts.</td></tr>
+    {% endfor %}
+  </table>
+  
+  <script>
+
+    $( ".item, .wanted" ).click(function() {
+      window.document.location = $( this ).attr("href");
+    });
+
+  </script>
+
+  </div>
+
+{% endblock %}

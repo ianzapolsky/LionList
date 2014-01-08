@@ -1,0 +1,5618 @@
+[
+	{
+		"model": "course.coursemodel",
+		"pk": 1,
+		"fields": {
+			"name": "Intro to African-American Studies",
+			"slug": "intro-to-african-american-studies",
+			"department": "2"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 2,
+		"fields": {
+			"name": "Topics in the Black Experience",
+			"slug": "topics-in-the-black-experience",
+			"department": "2"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 3,
+		"fields": {
+			"name": "Intro to American Studies",
+			"slug": "intro-to-american-studies",
+			"department": "3"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 4,
+		"fields": {
+			"name": "Topics in American Studies",
+			"slug": "topics-in-american-studies",
+			"department": "3"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 5,
+		"fields": {
+			"name": "The Supreme Court in American History",
+			"slug": "the-supreme-court-in-american-history",
+			"department": "3"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 6,
+		"fields": {
+			"name": "Intro to 21st Century Archaeology",
+			"slug": "intro-to-21st-century-archaeology",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 7,
+		"fields": {
+			"name": "The Interpretation of Culture",
+			"slug": "the-interpretation-of-culture",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 8,
+		"fields": {
+			"name": "The Origins of Human Society",
+			"slug": "the-origins-of-human-society",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 9,
+		"fields": {
+			"name": "The Rise of Civilizations",
+			"slug": "the-rise-of-civilizations",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 10,
+		"fields": {
+			"name": "Interpretation of Culture",
+			"slug": "interpretation-of-culture",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 11,
+		"fields": {
+			"name": "Africa and the Anthropologist",
+			"slug": "africa-and-the-anthropologist",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 12,
+		"fields": {
+			"name": "Intro to Social and Cultural Theory",
+			"slug": "intro-to-social-and-cultural-theory",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 13,
+		"fields": {
+			"name": "The Ethnographic Imagination",
+			"slug": "the-ethnographic-imagination",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 14,
+		"fields": {
+			"name": "Corruption in Critical Perspective",
+			"slug": "corruption-in-critical-perspective",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 15,
+		"fields": {
+			"name": "Film and Culture",
+			"slug": "film-and-culture",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 16,
+		"fields": {
+			"name": "Archaeology and Africa",
+			"slug": "archaeology-and-africa",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 17,
+		"fields": {
+			"name": "Changing East Asian Foodways",
+			"slug": "changing-east-asian-foodways",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 18,
+		"fields": {
+			"name": "Intro to the Anthropology of South Asia",
+			"slug": "intro-to-the-anthropology-of-south-asia",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 19,
+		"fields": {
+			"name": "Archaeology Before the Bible",
+			"slug": "archaeology-before-the-bible",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 20,
+		"fields": {
+			"name": "Indian and Nigerian Film Cultures",
+			"slug": "indian-and-nigerian-film-cultures",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 21,
+		"fields": {
+			"name": "The Anthropology of Islam",
+			"slug": "the-anthropology-of-islam",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 22,
+		"fields": {
+			"name": "Anthropological Theory I",
+			"slug": "anthropological-theory-i",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 23,
+		"fields": {
+			"name": "Anthropological Theory II",
+			"slug": "anthropological-theory-ii",
+			"department": "4"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 24,
+		"fields": {
+			"name": "Anatomy for Physicists and Engineers",
+			"slug": "anatomy-for-physicists-and-engineers",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 25,
+		"fields": {
+			"name": "Applied Math I Linear Algebra",
+			"slug": "applied-math-i-linear-algebra",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 26,
+		"fields": {
+			"name": "Applied Math III Dynamical Systems",
+			"slug": "applied-math-iii-dynamical-systems",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 27,
+		"fields": {
+			"name": "Applied Function Analysis",
+			"slug": "applied-function-analysis",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 28,
+		"fields": {
+			"name": "Partial Differential Equations",
+			"slug": "partial-differential-equations",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 29,
+		"fields": {
+			"name": "Functions of a Complex Variable",
+			"slug": "functions-of-a-complex-variable",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 30,
+		"fields": {
+			"name": "Numerical Methods",
+			"slug": "numerical-methods",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 31,
+		"fields": {
+			"name": "Mechanics Fundamentals and Applications",
+			"slug": "mechanics-fundamentals-and-applications",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 32,
+		"fields": {
+			"name": "Intro to Nuclear Science",
+			"slug": "intro-to-nuclear-science",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 33,
+		"fields": {
+			"name": "Quantum Physics of Matter",
+			"slug": "quantum-physics-of-matter",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 34,
+		"fields": {
+			"name": "Modern Optics",
+			"slug": "modern-optics",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 35,
+		"fields": {
+			"name": "Physics and Solar Energy",
+			"slug": "physics-and-solar-energy",
+			"department": "5"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 36,
+		"fields": {
+			"name": "Intro to Architecture",
+			"slug": "intro-to-architecture",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 37,
+		"fields": {
+			"name": "Athenian Acropolis",
+			"slug": "athenian-acropolis",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 38,
+		"fields": {
+			"name": "The Arts of China",
+			"slug": "the-arts-of-china",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 39,
+		"fields": {
+			"name": "Arts of Japan",
+			"slug": "arts-of-japan",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 40,
+		"fields": {
+			"name": "Midieval Architecture",
+			"slug": "midieval-architecture",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 41,
+		"fields": {
+			"name": "Greek Art and Architecture",
+			"slug": "greek-art-and-architecture",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 42,
+		"fields": {
+			"name": "Roman Art and Architecture",
+			"slug": "roman-art-and-architecture",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 43,
+		"fields": {
+			"name": "Early Italian Art 1250-1500",
+			"slug": "early-italian-art-1250-1500",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 44,
+		"fields": {
+			"name": "Later Italian Art",
+			"slug": "later-italian-art",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 45,
+		"fields": {
+			"name": "Art History and Archaeology",
+			"slug": "art-history-and-archaeology",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 46,
+		"fields": {
+			"name": "New York Architecture and Cultural History",
+			"slug": "new-york-architecture-and-cultural-history",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 47,
+		"fields": {
+			"name": "Art History and Archaeology",
+			"slug": "art-history-and-archaeology",
+			"department": "6"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 48,
+		"fields": {
+			"name": "Intro to Architecture",
+			"slug": "intro-to-architecture",
+			"department": "7"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 49,
+		"fields": {
+			"name": "Architectural Drawing and Representation I",
+			"slug": "architectural-drawing-and-representation-i",
+			"department": "7"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 50,
+		"fields": {
+			"name": "Architectural Drawing and Representation II",
+			"slug": "architectural-drawing-and-representation-ii",
+			"department": "7"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 51,
+		"fields": {
+			"name": "Architectural Representation Abstraction",
+			"slug": "architectural-representation-abstraction",
+			"department": "7"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 52,
+		"fields": {
+			"name": "Architectural Representation Perception",
+			"slug": "architectural-representation-perception",
+			"department": "7"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 53,
+		"fields": {
+			"name": "Perceptions of Architecture",
+			"slug": "perceptions-of-architecture",
+			"department": "7"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 54,
+		"fields": {
+			"name": "Architectural Design I",
+			"slug": "architectural-design-i",
+			"department": "7"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 55,
+		"fields": {
+			"name": "Architectural Design II",
+			"slug": "architectural-design-ii",
+			"department": "7"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 56,
+		"fields": {
+			"name": "Building New York",
+			"slug": "building-new-york",
+			"department": "7"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 57,
+		"fields": {
+			"name": "Intro to Art History I",
+			"slug": "intro-to-art-history-i",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 58,
+		"fields": {
+			"name": "Intro to Art History II",
+			"slug": "intro-to-art-history-ii",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 59,
+		"fields": {
+			"name": "Introduction to Drawing",
+			"slug": "introduction-to-drawing",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 60,
+		"fields": {
+			"name": "Painting I",
+			"slug": "painting-i",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 61,
+		"fields": {
+			"name": "Painting II",
+			"slug": "painting-ii",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 62,
+		"fields": {
+			"name": "Painting III",
+			"slug": "painting-iii",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 63,
+		"fields": {
+			"name": "History and Theory of Avant-Garde",
+			"slug": "history-and-theory-of-avant-garde",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 64,
+		"fields": {
+			"name": "19th Century Art",
+			"slug": "19th-century-art",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 65,
+		"fields": {
+			"name": "20th Century Architecture and City Planning",
+			"slug": "20th-century-architecture-and-city-planning",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 66,
+		"fields": {
+			"name": "20th Century Art",
+			"slug": "20th-century-art",
+			"department": "8"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 67,
+		"fields": {
+			"name": "Earth Moon and Planets",
+			"slug": "earth-moon-and-planets",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 68,
+		"fields": {
+			"name": "Stars Galaxies and Cosmology",
+			"slug": "stars-galaxies-and-cosmology",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 69,
+		"fields": {
+			"name": "Another Earth",
+			"slug": "another-earth",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 70,
+		"fields": {
+			"name": "Theory of the Universe Babylon - Big Bang",
+			"slug": "theory-of-the-universe-babylon---big-bang",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 71,
+		"fields": {
+			"name": "Life in the Universe",
+			"slug": "life-in-the-universe",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 72,
+		"fields": {
+			"name": "Stars and Atoms",
+			"slug": "stars-and-atoms",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 73,
+		"fields": {
+			"name": "Astronomy Lab I",
+			"slug": "astronomy-lab-i",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 74,
+		"fields": {
+			"name": "Astronomy Lab II",
+			"slug": "astronomy-lab-ii",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 75,
+		"fields": {
+			"name": "Intro to Astrophysics",
+			"slug": "intro-to-astrophysics",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 76,
+		"fields": {
+			"name": "Frontiers of Astrophysics",
+			"slug": "frontiers-of-astrophysics",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 77,
+		"fields": {
+			"name": "The Science of Space of Exploration",
+			"slug": "the-science-of-space-of-exploration",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 78,
+		"fields": {
+			"name": "High Energy Astrophysics",
+			"slug": "high-energy-astrophysics",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 79,
+		"fields": {
+			"name": "Relativity Black Holes Cosmology",
+			"slug": "relativity-black-holes-cosmology",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 80,
+		"fields": {
+			"name": "Physical Cosmology",
+			"slug": "physical-cosmology",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 81,
+		"fields": {
+			"name": "Observational Astronomy",
+			"slug": "observational-astronomy",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 82,
+		"fields": {
+			"name": "Modeling the Universe",
+			"slug": "modeling-the-universe",
+			"department": "9"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 83,
+		"fields": {
+			"name": "Biochemistry I Structure and Metabolism",
+			"slug": "biochemistry-i-structure-and-metabolism",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 84,
+		"fields": {
+			"name": "Biochemistry Metabolism and Disease",
+			"slug": "biochemistry-metabolism-and-disease",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 85,
+		"fields": {
+			"name": "Molecular Biology",
+			"slug": "molecular-biology",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 86,
+		"fields": {
+			"name": "Revolutionary Concepts in Biology",
+			"slug": "revolutionary-concepts-in-biology",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 87,
+		"fields": {
+			"name": "Genes and Development",
+			"slug": "genes-and-development",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 88,
+		"fields": {
+			"name": "Intro Organismal Evolutional to Biology",
+			"slug": "intro-organismal-evolutional-to-biology",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 89,
+		"fields": {
+			"name": "Intro to Biology I",
+			"slug": "intro-to-biology-i",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 90,
+		"fields": {
+			"name": "Intro to Biology II",
+			"slug": "intro-to-biology-ii",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 91,
+		"fields": {
+			"name": "Molecular and Mendelian Genetics",
+			"slug": "molecular-and-mendelian-genetics",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 92,
+		"fields": {
+			"name": "Plant Evolution and Diversity",
+			"slug": "plant-evolution-and-diversity",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 93,
+		"fields": {
+			"name": "Animal Behavior",
+			"slug": "animal-behavior",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 94,
+		"fields": {
+			"name": "Contemporary Biology I",
+			"slug": "contemporary-biology-i",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 95,
+		"fields": {
+			"name": "Contemporary Biology II",
+			"slug": "contemporary-biology-ii",
+			"department": "10"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 96,
+		"fields": {
+			"name": "Global Emerging Markets",
+			"slug": "global-emerging-markets",
+			"department": "11"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 97,
+		"fields": {
+			"name": "International Business",
+			"slug": "international-business",
+			"department": "11"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 98,
+		"fields": {
+			"name": "Business Law",
+			"slug": "business-law",
+			"department": "11"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 99,
+		"fields": {
+			"name": "International Seminars",
+			"slug": "international-seminars",
+			"department": "11"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 100,
+		"fields": {
+			"name": "Biochemistry and Molecular Biophysics",
+			"slug": "biochemistry-and-molecular-biophysics",
+			"department": "12"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 101,
+		"fields": {
+			"name": "Molecular Biophysics",
+			"slug": "molecular-biophysics",
+			"department": "12"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 102,
+		"fields": {
+			"name": "Biochemistry Special Methods I",
+			"slug": "biochemistry-special-methods-i",
+			"department": "12"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 103,
+		"fields": {
+			"name": "Biochemistry Cell Biology I",
+			"slug": "biochemistry-cell-biology-i",
+			"department": "12"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 104,
+		"fields": {
+			"name": "Chemical Principles in Engineering Thermodynamics",
+			"slug": "chemical-principles-in-engineering-thermodynamics",
+			"department": "12"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 105,
+		"fields": {
+			"name": "General Chemistry I",
+			"slug": "general-chemistry-i",
+			"department": "12"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 106,
+		"fields": {
+			"name": "General Chemistry II",
+			"slug": "general-chemistry-ii",
+			"department": "12"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 107,
+		"fields": {
+			"name": "2nd Term Intensive General Chemistry",
+			"slug": "2nd-term-intensive-general-chemistry",
+			"department": "12"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 108,
+		"fields": {
+			"name": "Design of Bridges, Buildings, and Spacecraft",
+			"slug": "design-of-bridges-buildings-and-spacecraft",
+			"department": "13"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 109,
+		"fields": {
+			"name": "Engineering Graphics",
+			"slug": "engineering-graphics",
+			"department": "13"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 110,
+		"fields": {
+			"name": "The Art of Structural Design",
+			"slug": "the-art-of-structural-design",
+			"department": "13"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 111,
+		"fields": {
+			"name": "Solid Mechanics",
+			"slug": "solid-mechanics",
+			"department": "13"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 112,
+		"fields": {
+			"name": "Urban Infrastructure Systems",
+			"slug": "urban-infrastructure-systems",
+			"department": "13"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 113,
+		"fields": {
+			"name": "Science, Technology, and Society",
+			"slug": "science-technology-and-society",
+			"department": "13"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 114,
+		"fields": {
+			"name": "Archaeology of Ancient Egypt and Nubia",
+			"slug": "archaeology-of-ancient-egypt-and-nubia",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 115,
+		"fields": {
+			"name": "Women in Antiquity",
+			"slug": "women-in-antiquity",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 116,
+		"fields": {
+			"name": "Philosophy in Classical Rome",
+			"slug": "philosophy-in-classical-rome",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 117,
+		"fields": {
+			"name": "Egypt in the Classical World",
+			"slug": "egypt-in-the-classical-world",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 118,
+		"fields": {
+			"name": "Classical Myth",
+			"slug": "classical-myth",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 119,
+		"fields": {
+			"name": "Comedy: Past and Present",
+			"slug": "comedy-past-and-present",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 120,
+		"fields": {
+			"name": "Classical Mythology",
+			"slug": "classical-mythology",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 121,
+		"fields": {
+			"name": "The Classical Tradition",
+			"slug": "the-classical-tradition",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 122,
+		"fields": {
+			"name": "Elementary Greek I",
+			"slug": "elementary-greek-i",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 123,
+		"fields": {
+			"name": "Elementary Greek II",
+			"slug": "elementary-greek-ii",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 124,
+		"fields": {
+			"name": "Intensive Elementary Greek",
+			"slug": "intensive-elementary-greek",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 125,
+		"fields": {
+			"name": "Intermediate Greek I: Prose",
+			"slug": "intermediate-greek-i-prose",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 126,
+		"fields": {
+			"name": "Intermediate Greek II: Homer",
+			"slug": "intermediate-greek-ii-homer",
+			"department": "14"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 127,
+		"fields": {
+			"name": "Intro to Information Science",
+			"slug": "intro-to-information-science",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 128,
+		"fields": {
+			"name": "Intro to Computer Science and Programming in Java",
+			"slug": "intro-to-computer-science-and-programming-in-java",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 129,
+		"fields": {
+			"name": "Intro to Computer Programming in MATLAB",
+			"slug": "intro-to-computer-programming-in-matlab",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 130,
+		"fields": {
+			"name": "Honors Intro to Computer Science",
+			"slug": "honors-intro-to-computer-science",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 131,
+		"fields": {
+			"name": "Data Structures in Java",
+			"slug": "data-structures-in-java",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 132,
+		"fields": {
+			"name": "Essential Data Structures",
+			"slug": "essential-data-structures",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 133,
+		"fields": {
+			"name": "Honors Data Structures and Algorithms",
+			"slug": "honors-data-structures-and-algorithms",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 134,
+		"fields": {
+			"name": "Advanced Programming",
+			"slug": "advanced-programming",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 135,
+		"fields": {
+			"name": "Discrete Mathematics",
+			"slug": "discrete-mathematics",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 136,
+		"fields": {
+			"name": "Computational Linear Algebra",
+			"slug": "computational-linear-algebra",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 137,
+		"fields": {
+			"name": "Computer Science Theory",
+			"slug": "computer-science-theory",
+			"department": "15"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 138,
+		"fields": {
+			"name": "Gateway Lab",
+			"slug": "gateway-lab",
+			"department": "1"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 139,
+		"fields": {
+			"name": "Contemporary Civilization",
+			"slug": "contemporary-civilization",
+			"department": "1"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 140,
+		"fields": {
+			"name": "Frontiers of Science",
+			"slug": "frontiers-of-science",
+			"department": "1"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 141,
+		"fields": {
+			"name": "Art Humanities",
+			"slug": "art-humanities",
+			"department": "1"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 142,
+		"fields": {
+			"name": "Literature Humanities",
+			"slug": "literature-humanities",
+			"department": "1"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 143,
+		"fields": {
+			"name": "Music Humanities",
+			"slug": "music-humanities",
+			"department": "1"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 144,
+		"fields": {
+			"name": "University Writing",
+			"slug": "university-writing",
+			"department": "1"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 145,
+		"fields": {
+			"name": "Ballet I",
+			"slug": "ballet-i",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 146,
+		"fields": {
+			"name": "Ballet II",
+			"slug": "ballet-ii",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 147,
+		"fields": {
+			"name": "Jazz Dance I",
+			"slug": "jazz-dance-i",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 148,
+		"fields": {
+			"name": "Jazz Dance II",
+			"slug": "jazz-dance-ii",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 149,
+		"fields": {
+			"name": "Modern I",
+			"slug": "modern-i",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 150,
+		"fields": {
+			"name": "Modern II",
+			"slug": "modern-ii",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 151,
+		"fields": {
+			"name": "Modern III",
+			"slug": "modern-iii",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 152,
+		"fields": {
+			"name": "Modern IV",
+			"slug": "modern-iv",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 153,
+		"fields": {
+			"name": "Tap I",
+			"slug": "tap-i",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 154,
+		"fields": {
+			"name": "Ballet III",
+			"slug": "ballet-iii",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 155,
+		"fields": {
+			"name": "Ballet IV",
+			"slug": "ballet-iv",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 156,
+		"fields": {
+			"name": "Pointe: Intermediate to Advanced",
+			"slug": "pointe-intermediate-to-advanced",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 157,
+		"fields": {
+			"name": "African Dance I",
+			"slug": "african-dance-i",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 158,
+		"fields": {
+			"name": "African Dance II",
+			"slug": "african-dance-ii",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 159,
+		"fields": {
+			"name": "Classical Indian I",
+			"slug": "classical-indian-i",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 160,
+		"fields": {
+			"name": "Afro-Cuban Dance",
+			"slug": "afro-cuban-dance",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 161,
+		"fields": {
+			"name": "Biomechanics for the Dancer",
+			"slug": "biomechanics-for-the-dancer",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 162,
+		"fields": {
+			"name": "Movement Analysis",
+			"slug": "movement-analysis",
+			"department": "16"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 163,
+		"fields": {
+			"name": "Engineering Separations",
+			"slug": "engineering-separations",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 164,
+		"fields": {
+			"name": "Intro to Surface and Colloid Chemistry",
+			"slug": "intro-to-surface-and-colloid-chemistry",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 165,
+		"fields": {
+			"name": "Environmental Engineering",
+			"slug": "environmental-engineering",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 166,
+		"fields": {
+			"name": "Particle Technology",
+			"slug": "particle-technology",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 167,
+		"fields": {
+			"name": "Alternative Energy Resources",
+			"slug": "alternative-energy-resources",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 168,
+		"fields": {
+			"name": "Energy, Minerals, Materials and Systems",
+			"slug": "energy-minerals-materials-and-systems",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 169,
+		"fields": {
+			"name": "Transport/Chemistry Rate Phenomena",
+			"slug": "transport-chemistry-rate-phenomena",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 170,
+		"fields": {
+			"name": "Earth and Environmental Engineering Lab I",
+			"slug": "earth-and-environmental-engineering-lab-i",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 171,
+		"fields": {
+			"name": "Earth and Environmental Engineering Lab II",
+			"slug": "earth-and-environmental-engineering-lab-ii",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 172,
+		"fields": {
+			"name": "Industrial Ecology-Earth Resources",
+			"slug": "industrial-ecology-earth-resources",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 173,
+		"fields": {
+			"name": "Intro to Aquatic Chemistry",
+			"slug": "intro-to-aquatic-chemistry",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 174,
+		"fields": {
+			"name": "Photovoltaic Systems Engineering",
+			"slug": "photovoltaic-systems-engineering",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 175,
+		"fields": {
+			"name": "Thermal Treatment-Waste/Bio Materials",
+			"slug": "thermal-treatment-waste-bio-materials",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 176,
+		"fields": {
+			"name": "River and Coastal Hydrodynamics",
+			"slug": "river-and-coastal-hydrodynamics",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 177,
+		"fields": {
+			"name": "Carbon Storage",
+			"slug": "carbon-storage",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 178,
+		"fields": {
+			"name": "Planning/Management of Urban Hydrologic Systems",
+			"slug": "planning-management-of-urban-hydrologic-systems",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 179,
+		"fields": {
+			"name": "Catalysis of Emissions Control",
+			"slug": "catalysis-of-emissions-control",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 180,
+		"fields": {
+			"name": "Environmental Biochemical Processes",
+			"slug": "environmental-biochemical-processes",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 181,
+		"fields": {
+			"name": "Numerical Methods in Geomechanics",
+			"slug": "numerical-methods-in-geomechanics",
+			"department": "17"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 182,
+		"fields": {
+			"name": "Climate and Society: Case Studies",
+			"slug": "climate-and-society-case-studies",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 183,
+		"fields": {
+			"name": "Intro to Earth Sciences I",
+			"slug": "intro-to-earth-sciences-i",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 184,
+		"fields": {
+			"name": "Oceanography",
+			"slug": "oceanography",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 185,
+		"fields": {
+			"name": "Planet Earth",
+			"slug": "planet-earth",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 186,
+		"fields": {
+			"name": "Environmental Risks and Disasters",
+			"slug": "environmental-risks-and-disasters",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 187,
+		"fields": {
+			"name": "Earth Resources and Sustainable Development",
+			"slug": "earth-resources-and-sustainable-development",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 188,
+		"fields": {
+			"name": "Earth Environmental Systems: Cilmate System",
+			"slug": "earth-environmental-systems-cilmate-system",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 189,
+		"fields": {
+			"name": "Earth Environmental Systems: Solid Earth",
+			"slug": "earth-environmental-systems-solid-earth",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 190,
+		"fields": {
+			"name": "Earth Environmental Systems: Life Systems",
+			"slug": "earth-environmental-systems-life-systems",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 191,
+		"fields": {
+			"name": "Science for Sustainable Development",
+			"slug": "science-for-sustainable-development",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 192,
+		"fields": {
+			"name": "The Earth's Carbon Cycle",
+			"slug": "the-earths-carbon-cycle",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 193,
+		"fields": {
+			"name": "Weapons of Mass Destruction",
+			"slug": "weapons-of-mass-destruction",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 194,
+		"fields": {
+			"name": "Geochemistry for a Habitable Planet",
+			"slug": "geochemistry-for-a-habitable-planet",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 195,
+		"fields": {
+			"name": "Solid Earth Dynamics",
+			"slug": "solid-earth-dynamics",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 196,
+		"fields": {
+			"name": "Advanced General Geology",
+			"slug": "advanced-general-geology",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 197,
+		"fields": {
+			"name": "Intro to Atmospheric Science",
+			"slug": "intro-to-atmospheric-science",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 198,
+		"fields": {
+			"name": "Humans and the Carbon Cycle",
+			"slug": "humans-and-the-carbon-cycle",
+			"department": "18"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 199,
+		"fields": {
+			"name": "Intro to Major Topics: East Asian",
+			"slug": "intro-to-major-topics-east-asian",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 200,
+		"fields": {
+			"name": "Intro to East Asian Civilization: China",
+			"slug": "intro-to-east-asian-civilization-china",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 201,
+		"fields": {
+			"name": "Intro to East Asian Civilization: Japan",
+			"slug": "intro-to-east-asian-civilization-japan",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 202,
+		"fields": {
+			"name": "Intro to East Asian Civilization: Korea",
+			"slug": "intro-to-east-asian-civilization-korea",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 203,
+		"fields": {
+			"name": "Intro to East Asian Civilization: Tibet",
+			"slug": "intro-to-east-asian-civilization-tibet",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 204,
+		"fields": {
+			"name": "Introductory Chinese I",
+			"slug": "introductory-chinese-i",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 205,
+		"fields": {
+			"name": "Introductory Chinese II",
+			"slug": "introductory-chinese-ii",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 206,
+		"fields": {
+			"name": "Elementary Chinese",
+			"slug": "elementary-chinese",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 207,
+		"fields": {
+			"name": "Intermediate Chinese I",
+			"slug": "intermediate-chinese-i",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 208,
+		"fields": {
+			"name": "Intermediate Chinese II",
+			"slug": "intermediate-chinese-ii",
+			"department": "19"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 209,
+		"fields": {
+			"name": "Systematics and Biogeography",
+			"slug": "systematics-and-biogeography",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 210,
+		"fields": {
+			"name": "Human Species-Place in Nature",
+			"slug": "human-species-place-in-nature",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 211,
+		"fields": {
+			"name": "Behavior Biology-Living Primates",
+			"slug": "behavior-biology-living-primates",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 212,
+		"fields": {
+			"name": "The Life Aquatic",
+			"slug": "the-life-aquatic",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 213,
+		"fields": {
+			"name": "Environmental Biology I",
+			"slug": "environmental-biology-i",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 214,
+		"fields": {
+			"name": "Environmental Biology II",
+			"slug": "environmental-biology-ii",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 215,
+		"fields": {
+			"name": "Animal Behavior Thru Fieldwork",
+			"slug": "animal-behavior-thru-fieldwork",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 216,
+		"fields": {
+			"name": "Biological History of Apes",
+			"slug": "biological-history-of-apes",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 217,
+		"fields": {
+			"name": "Conservation Biology",
+			"slug": "conservation-biology",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 218,
+		"fields": {
+			"name": "Forensic Osteology",
+			"slug": "forensic-osteology",
+			"department": "20"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 219,
+		"fields": {
+			"name": "Globalization and the Markets",
+			"slug": "globalization-and-the-markets",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 220,
+		"fields": {
+			"name": "Management Consulting",
+			"slug": "management-consulting",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 221,
+		"fields": {
+			"name": "Global Economic Environment",
+			"slug": "global-economic-environment",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 222,
+		"fields": {
+			"name": "Intro to Economic Reasoning",
+			"slug": "intro-to-economic-reasoning",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 223,
+		"fields": {
+			"name": "Math Methods for Economics",
+			"slug": "math-methods-for-economics",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 224,
+		"fields": {
+			"name": "Principles of Economics",
+			"slug": "principles-of-economics",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 225,
+		"fields": {
+			"name": "Economic History of Western Europe",
+			"slug": "economic-history-of-western-europe",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 226,
+		"fields": {
+			"name": "The American Economy",
+			"slug": "the-american-economy",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 227,
+		"fields": {
+			"name": "The Global Economy",
+			"slug": "the-global-economy",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 228,
+		"fields": {
+			"name": "Statistics for Economics",
+			"slug": "statistics-for-economics",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 229,
+		"fields": {
+			"name": "Econometrics",
+			"slug": "econometrics",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 230,
+		"fields": {
+			"name": "Financial Economics",
+			"slug": "financial-economics",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 231,
+		"fields": {
+			"name": "Development Economics",
+			"slug": "development-economics",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 232,
+		"fields": {
+			"name": "Intermediate Macroeconomic Theory",
+			"slug": "intermediate-macroeconomic-theory",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 233,
+		"fields": {
+			"name": "Intermediate Microeconomic Theory",
+			"slug": "intermediate-microeconomic-theory",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 234,
+		"fields": {
+			"name": "International Money and Finance",
+			"slug": "international-money-and-finance",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 235,
+		"fields": {
+			"name": "Environmental and Natural Resource Economies",
+			"slug": "environmental-and-natural-resource-economies",
+			"department": "21"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 236,
+		"fields": {
+			"name": "Computational Neurology: Circuits in the Brain",
+			"slug": "computational-neurology-circuits-in-the-brain",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 237,
+		"fields": {
+			"name": "Networking",
+			"slug": "networking",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 238,
+		"fields": {
+			"name": "Intro to Genomic Information Science and Technology",
+			"slug": "intro-to-genomic-information-science-and-technology",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 239,
+		"fields": {
+			"name": "Digital Visualization of Circuits",
+			"slug": "digital-visualization-of-circuits",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 240,
+		"fields": {
+			"name": "Topics in Information Processing",
+			"slug": "topics-in-information-processing",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 241,
+		"fields": {
+			"name": "Convex Optimization for Electrical Engineering",
+			"slug": "convex-optimization-for-electrical-engineering",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 242,
+		"fields": {
+			"name": "The Digital Information Age",
+			"slug": "the-digital-information-age",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 243,
+		"fields": {
+			"name": "Intro to Electrical Engineering",
+			"slug": "intro-to-electrical-engineering",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 244,
+		"fields": {
+			"name": "Circuit Analysis",
+			"slug": "circuit-analysis",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 245,
+		"fields": {
+			"name": "Signals and Systems",
+			"slug": "signals-and-systems",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 246,
+		"fields": {
+			"name": "Solid State Devices and Materials",
+			"slug": "solid-state-devices-and-materials",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 247,
+		"fields": {
+			"name": "Modern Display Science and Technology",
+			"slug": "modern-display-science-and-technology",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 248,
+		"fields": {
+			"name": "Analog Electronic Circuits",
+			"slug": "analog-electronic-circuits",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 249,
+		"fields": {
+			"name": "Fundamentals of Photonics",
+			"slug": "fundamentals-of-photonics",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 250,
+		"fields": {
+			"name": "Optical Systems",
+			"slug": "optical-systems",
+			"department": "22"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 251,
+		"fields": {
+			"name": "Modern Comparative Fiction",
+			"slug": "modern-comparative-fiction",
+			"department": "23"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 252,
+		"fields": {
+			"name": "The Art of the Novel",
+			"slug": "the-art-of-the-novel",
+			"department": "23"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 253,
+		"fields": {
+			"name": "Contemporary Texts",
+			"slug": "contemporary-texts",
+			"department": "23"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 254,
+		"fields": {
+			"name": "Proust",
+			"slug": "proust",
+			"department": "23"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 255,
+		"fields": {
+			"name": "The Dialectical Image",
+			"slug": "the-dialectical-image",
+			"department": "23"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 256,
+		"fields": {
+			"name": "Studies in Narrative",
+			"slug": "studies-in-narrative",
+			"department": "23"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 257,
+		"fields": {
+			"name": "Comparative Literature Seminar",
+			"slug": "comparative-literature-seminar",
+			"department": "23"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 258,
+		"fields": {
+			"name": "Intro to Comparative Ethnic Studies",
+			"slug": "intro-to-comparative-ethnic-studies",
+			"department": "24"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 259,
+		"fields": {
+			"name": "History of Racialization in the US",
+			"slug": "history-of-racialization-in-the-us",
+			"department": "24"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 260,
+		"fields": {
+			"name": "Critical Approach to the Study of Ethnicity and Race",
+			"slug": "critical-approach-to-the-study-of-ethnicity-and-race",
+			"department": "24"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 261,
+		"fields": {
+			"name": "Intro to Latino Studies",
+			"slug": "intro-to-latino-studies",
+			"department": "24"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 262,
+		"fields": {
+			"name": "African American history: Slavery/Great Migration",
+			"slug": "african-american-history-slavery-great-migration",
+			"department": "24"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 263,
+		"fields": {
+			"name": "Nature/Power: Environmental History in America",
+			"slug": "nature-power-environmental-history-in-america",
+			"department": "24"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 264,
+		"fields": {
+			"name": "Post 9/11 Immigration Policies",
+			"slug": "post-9-11-immigration-policies",
+			"department": "24"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 265,
+		"fields": {
+			"name": "Asian American and Psyche of Race",
+			"slug": "asian-american-and-psyche-of-race",
+			"department": "24"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 266,
+		"fields": {
+			"name": "French Cinema 1993-2013",
+			"slug": "french-cinema-1993-2013",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 267,
+		"fields": {
+			"name": "Television Writing Intensive",
+			"slug": "television-writing-intensive",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 268,
+		"fields": {
+			"name": "The Finished Script",
+			"slug": "the-finished-script",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 269,
+		"fields": {
+			"name": "Intro to the Study and Theory of Film",
+			"slug": "intro-to-the-study-and-theory-of-film",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 270,
+		"fields": {
+			"name": "Labaratory in Screenwriting",
+			"slug": "labaratory-in-screenwriting",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 271,
+		"fields": {
+			"name": "The Documentary Tradition",
+			"slug": "the-documentary-tradition",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 272,
+		"fields": {
+			"name": "Lab in Fiction Filmmaking",
+			"slug": "lab-in-fiction-filmmaking",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 273,
+		"fields": {
+			"name": "Screenwriting",
+			"slug": "screenwriting",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 274,
+		"fields": {
+			"name": "Silent Cinema",
+			"slug": "silent-cinema",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 275,
+		"fields": {
+			"name": "International Film History 1930-1960",
+			"slug": "international-film-history-1930-1960",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 276,
+		"fields": {
+			"name": "American Film History After 1990",
+			"slug": "american-film-history-after-1990",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 277,
+		"fields": {
+			"name": "Topics in American Cinema",
+			"slug": "topics-in-american-cinema",
+			"department": "25"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 278,
+		"fields": {
+			"name": "Theory of Literature I",
+			"slug": "theory-of-literature-i",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 279,
+		"fields": {
+			"name": "Elementary French I",
+			"slug": "elementary-french-i",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 280,
+		"fields": {
+			"name": "Elementary French II",
+			"slug": "elementary-french-ii",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 281,
+		"fields": {
+			"name": "Accelerated Elementary French",
+			"slug": "accelerated-elementary-french",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 282,
+		"fields": {
+			"name": "Intermediate French I",
+			"slug": "intermediate-french-i",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 283,
+		"fields": {
+			"name": "Intermediate French II",
+			"slug": "intermediate-french-ii",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 284,
+		"fields": {
+			"name": "Rapid Reading and Translation",
+			"slug": "rapid-reading-and-translation",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 285,
+		"fields": {
+			"name": "Accelerated Intermediate French",
+			"slug": "accelerated-intermediate-french",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 286,
+		"fields": {
+			"name": "Intermediate Conversation French I",
+			"slug": "intermediate-conversation-french-i",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 287,
+		"fields": {
+			"name": "Intermediate Conversation French II",
+			"slug": "intermediate-conversation-french-ii",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 288,
+		"fields": {
+			"name": "Composition and Conversation",
+			"slug": "composition-and-conversation",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 289,
+		"fields": {
+			"name": "Advanced Composition and Grammar",
+			"slug": "advanced-composition-and-grammar",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 290,
+		"fields": {
+			"name": "Advanced Oral French",
+			"slug": "advanced-oral-french",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 291,
+		"fields": {
+			"name": "Major French Texts I",
+			"slug": "major-french-texts-i",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 292,
+		"fields": {
+			"name": "Renaissance Art and Literature",
+			"slug": "renaissance-art-and-literature",
+			"department": "26"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 293,
+		"fields": {
+			"name": "Aesthetics and Philosophy of History",
+			"slug": "aesthetics-and-philosophy-of-history",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 294,
+		"fields": {
+			"name": "Paradigms of the European Novel",
+			"slug": "paradigms-of-the-european-novel",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 295,
+		"fields": {
+			"name": "Scandinavian Crime in Film/Literature",
+			"slug": "scandinavian-crime-in-film-literature",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 296,
+		"fields": {
+			"name": "Elementary Dutch I",
+			"slug": "elementary-dutch-i",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 297,
+		"fields": {
+			"name": "Elementary Dutch II",
+			"slug": "elementary-dutch-ii",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 298,
+		"fields": {
+			"name": "Intermediate Dutch I",
+			"slug": "intermediate-dutch-i",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 299,
+		"fields": {
+			"name": "Intermediate Dutch II",
+			"slug": "intermediate-dutch-ii",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 300,
+		"fields": {
+			"name": "Advanced Dutch I",
+			"slug": "advanced-dutch-i",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 301,
+		"fields": {
+			"name": "Advanced Dutch II",
+			"slug": "advanced-dutch-ii",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 302,
+		"fields": {
+			"name": "Elementary Finnish I",
+			"slug": "elementary-finnish-i",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 303,
+		"fields": {
+			"name": "Elementary Finnish II",
+			"slug": "elementary-finnish-ii",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 304,
+		"fields": {
+			"name": "Intermediate Finnish I",
+			"slug": "intermediate-finnish-i",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 305,
+		"fields": {
+			"name": "Intermediate Finnish II",
+			"slug": "intermediate-finnish-ii",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 306,
+		"fields": {
+			"name": "Advanced Finnish I",
+			"slug": "advanced-finnish-i",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 307,
+		"fields": {
+			"name": "Advanced Finnish II",
+			"slug": "advanced-finnish-ii",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 308,
+		"fields": {
+			"name": "Elementary German I",
+			"slug": "elementary-german-i",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 309,
+		"fields": {
+			"name": "Elementary German II",
+			"slug": "elementary-german-ii",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 310,
+		"fields": {
+			"name": "Elementary German Reading I + II",
+			"slug": "elementary-german-reading-i-and-ii",
+			"department": "27"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 311,
+		"fields": {
+			"name": "Historical Theories and Methods",
+			"slug": "historical-theories-and-methods",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 312,
+		"fields": {
+			"name": "International and Global History Since WWII",
+			"slug": "international-and-global-history-since-wwii",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 313,
+		"fields": {
+			"name": "American and the Muslim World",
+			"slug": "american-and-the-muslim-world",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 314,
+		"fields": {
+			"name": "History of the World from 1500 CE",
+			"slug": "history-of-the-world-from-1500-ce",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 315,
+		"fields": {
+			"name": "History of Finance",
+			"slug": "history-of-finance",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 316,
+		"fields": {
+			"name": "Globalization in History",
+			"slug": "globalization-in-history",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 317,
+		"fields": {
+			"name": "World Migration",
+			"slug": "world-migration",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 318,
+		"fields": {
+			"name": "World War II in History and Memory",
+			"slug": "world-war-ii-in-history-and-memory",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 319,
+		"fields": {
+			"name": "Global Justice in Historical Perspective",
+			"slug": "global-justice-in-historical-perspective",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 320,
+		"fields": {
+			"name": "Ancient History of Mesopotamia and Asia Minor",
+			"slug": "ancient-history-of-mesopotamia-and-asia-minor",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 321,
+		"fields": {
+			"name": "Ancient History of Egypt",
+			"slug": "ancient-history-of-egypt",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 322,
+		"fields": {
+			"name": "The Ancient Greegs 800-146 BCE",
+			"slug": "the-ancient-greegs-800-146-bce",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 323,
+		"fields": {
+			"name": "The Romans 754 BC-565 AD",
+			"slug": "the-romans-754-bc-565-ad",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 324,
+		"fields": {
+			"name": "Intro to the Early Middle Ages",
+			"slug": "intro-to-the-early-middle-ages",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 325,
+		"fields": {
+			"name": "Intro to the Later Middle Ages",
+			"slug": "intro-to-the-later-middle-ages",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 326,
+		"fields": {
+			"name": "Greece in the 5th Centry BCE",
+			"slug": "greece-in-the-5th-centry-bce",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 327,
+		"fields": {
+			"name": "Roman Imperialism",
+			"slug": "roman-imperialism",
+			"department": "28"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 328,
+		"fields": {
+			"name": "Intro to Human Rights",
+			"slug": "intro-to-human-rights",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 329,
+		"fields": {
+			"name": "International Human Rights Law",
+			"slug": "international-human-rights-law",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 330,
+		"fields": {
+			"name": "Tools of Human Rights Advocacy",
+			"slug": "tools-of-human-rights-advocacy",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 331,
+		"fields": {
+			"name": "International Humanitarian Law and Human Rights",
+			"slug": "international-humanitarian-law-and-human-rights",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 332,
+		"fields": {
+			"name": "Human Rights and Human Wrongs",
+			"slug": "human-rights-and-human-wrongs",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 333,
+		"fields": {
+			"name": "Equality, Identity, and Rights",
+			"slug": "equality-identity-and-rights",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 334,
+		"fields": {
+			"name": "The International Human Rights Movement",
+			"slug": "the-international-human-rights-movement",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 335,
+		"fields": {
+			"name": "Economic, Social, and Cultural Rights in Policy and Practice",
+			"slug": "economic-social-and-cultural-rights-in-policy-and-practice",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 336,
+		"fields": {
+			"name": "Human Rights and Foreign Policy",
+			"slug": "human-rights-and-foreign-policy",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 337,
+		"fields": {
+			"name": "Religion and Human Rights",
+			"slug": "religion-and-human-rights",
+			"department": "29"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 338,
+		"fields": {
+			"name": "Graph Theory: Combinational View",
+			"slug": "graph-theory-combinational-view",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 339,
+		"fields": {
+			"name": "Manufacturing Enterprise",
+			"slug": "manufacturing-enterprise",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 340,
+		"fields": {
+			"name": "Intro to Accounting and Finance",
+			"slug": "intro-to-accounting-and-finance",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 341,
+		"fields": {
+			"name": "Intro to Operations Research Stochastic Models",
+			"slug": "intro-to-operations-research-stochastic-models",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 342,
+		"fields": {
+			"name": "Industrial Engineering and Operating Research",
+			"slug": "industrial-engineering-and-operating-research",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 343,
+		"fields": {
+			"name": "Design Management of Production Systems",
+			"slug": "design-management-of-production-systems",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 344,
+		"fields": {
+			"name": "Industrial Economics",
+			"slug": "industrial-economics",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 345,
+		"fields": {
+			"name": "Intro to OR-Deterministic Models",
+			"slug": "intro-to-or-deterministic-models",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 346,
+		"fields": {
+			"name": "Optimization Models and Methods for FE",
+			"slug": "optimization-models-and-methods-for-fe",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 347,
+		"fields": {
+			"name": "Operations Consulting",
+			"slug": "operations-consulting",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 348,
+		"fields": {
+			"name": "Human Factors: Performance",
+			"slug": "human-factors-performance",
+			"department": "30"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 349,
+		"fields": {
+			"name": "Pirandello and Modern Italian Drama",
+			"slug": "pirandello-and-modern-italian-drama",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 350,
+		"fields": {
+			"name": "Elementary Hungarian I",
+			"slug": "elementary-hungarian-i",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 351,
+		"fields": {
+			"name": "Elementary Hungarian II",
+			"slug": "elementary-hungarian-ii",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 352,
+		"fields": {
+			"name": "Intermediate Hungarian I",
+			"slug": "intermediate-hungarian-i",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 353,
+		"fields": {
+			"name": "Intermediate Hungarian II",
+			"slug": "intermediate-hungarian-ii",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 354,
+		"fields": {
+			"name": "Advanced Hungarian Grammar",
+			"slug": "advanced-hungarian-grammar",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 355,
+		"fields": {
+			"name": "Advanced Readings in Hungarian",
+			"slug": "advanced-readings-in-hungarian",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 356,
+		"fields": {
+			"name": "Elementary Italian I",
+			"slug": "elementary-italian-i",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 357,
+		"fields": {
+			"name": "Elementary Italian II",
+			"slug": "elementary-italian-ii",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 358,
+		"fields": {
+			"name": "Intermediate Italian I",
+			"slug": "intermediate-italian-i",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 359,
+		"fields": {
+			"name": "Intermediate Italian II",
+			"slug": "intermediate-italian-ii",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 360,
+		"fields": {
+			"name": "Rapid Reading and Translation",
+			"slug": "rapid-reading-and-translation",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 361,
+		"fields": {
+			"name": "Intermediate Conversation Italian",
+			"slug": "intermediate-conversation-italian",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 362,
+		"fields": {
+			"name": "Advanced Conversation Italian",
+			"slug": "advanced-conversation-italian",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 363,
+		"fields": {
+			"name": "Intro to Italian Literature I",
+			"slug": "intro-to-italian-literature-i",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 364,
+		"fields": {
+			"name": "Intro to Italian Literature II",
+			"slug": "intro-to-italian-literature-ii",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 365,
+		"fields": {
+			"name": "Advanced Italian I",
+			"slug": "advanced-italian-i",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 366,
+		"fields": {
+			"name": "Advanced Italian II",
+			"slug": "advanced-italian-ii",
+			"department": "31"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 367,
+		"fields": {
+			"name": "Civil Procedure",
+			"slug": "civil-procedure",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 368,
+		"fields": {
+			"name": "Contracts",
+			"slug": "contracts",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 369,
+		"fields": {
+			"name": "Deals",
+			"slug": "deals",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 370,
+		"fields": {
+			"name": "Legal Methods",
+			"slug": "legal-methods",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 371,
+		"fields": {
+			"name": "Legal Practice Workshop I",
+			"slug": "legal-practice-workshop-i",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 372,
+		"fields": {
+			"name": "Property",
+			"slug": "property",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 373,
+		"fields": {
+			"name": "Torts",
+			"slug": "torts",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 374,
+		"fields": {
+			"name": "Anthropology and the Law",
+			"slug": "anthropology-and-the-law",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 375,
+		"fields": {
+			"name": "Constitutional Law",
+			"slug": "constitutional-law",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 376,
+		"fields": {
+			"name": "Cybersecurity",
+			"slug": "cybersecurity",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 377,
+		"fields": {
+			"name": "Administrative Law",
+			"slug": "administrative-law",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 378,
+		"fields": {
+			"name": "African Law and Development",
+			"slug": "african-law-and-development",
+			"department": "32"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 379,
+		"fields": {
+			"name": "Intro to Linguistics",
+			"slug": "intro-to-linguistics",
+			"department": "52"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 380,
+		"fields": {
+			"name": "Language History",
+			"slug": "language-history",
+			"department": "52"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 381,
+		"fields": {
+			"name": "Language Documentation and Field Methods",
+			"slug": "language-documentation-and-field-methods",
+			"department": "52"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 382,
+		"fields": {
+			"name": "Cognitive Linguistics",
+			"slug": "cognitive-linguistics",
+			"department": "52"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 383,
+		"fields": {
+			"name": "Advanced Grammar and Grammars",
+			"slug": "advanced-grammar-and-grammars",
+			"department": "52"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 384,
+		"fields": {
+			"name": "Calculus I",
+			"slug": "calculus-i",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 385,
+		"fields": {
+			"name": "Calculus II",
+			"slug": "calculus-ii",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 386,
+		"fields": {
+			"name": "Calculus III",
+			"slug": "calculus-iii",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 387,
+		"fields": {
+			"name": "Calculus IV",
+			"slug": "calculus-iv",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 388,
+		"fields": {
+			"name": "Honors Math A-B",
+			"slug": "honors-math-a-b",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 389,
+		"fields": {
+			"name": "Intro to Higher Mathematics",
+			"slug": "intro-to-higher-mathematics",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 390,
+		"fields": {
+			"name": "Combinatorics",
+			"slug": "combinatorics",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 391,
+		"fields": {
+			"name": "Linear Algebra",
+			"slug": "linear-algebra",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 392,
+		"fields": {
+			"name": "Honors Linear Algebra",
+			"slug": "honors-linear-algebra",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 393,
+		"fields": {
+			"name": "Analysis and Optimization",
+			"slug": "analysis-and-optimization",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 394,
+		"fields": {
+			"name": "Complex Variables",
+			"slug": "complex-variables",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 395,
+		"fields": {
+			"name": "Number Theory and Cryptography",
+			"slug": "number-theory-and-cryptography",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 396,
+		"fields": {
+			"name": "Making, Breaking Codes",
+			"slug": "making-breaking-codes",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 397,
+		"fields": {
+			"name": "Ordinary Differential Equations",
+			"slug": "ordinary-differential-equations",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 398,
+		"fields": {
+			"name": "Discrete Time Models in Finance",
+			"slug": "discrete-time-models-in-finance",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 399,
+		"fields": {
+			"name": "Differential Geometry",
+			"slug": "differential-geometry",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 400,
+		"fields": {
+			"name": "Analytic Number Theory",
+			"slug": "analytic-number-theory",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 401,
+		"fields": {
+			"name": "Fourier Analysis",
+			"slug": "fourier-analysis",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 402,
+		"fields": {
+			"name": "Intro to Modern Algebra",
+			"slug": "intro-to-modern-algebra",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 403,
+		"fields": {
+			"name": "Representations of Finite Groups",
+			"slug": "representations-of-finite-groups",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 404,
+		"fields": {
+			"name": "Algebraic Curves",
+			"slug": "algebraic-curves",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 405,
+		"fields": {
+			"name": "Topology",
+			"slug": "topology",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 406,
+		"fields": {
+			"name": "Intro to Knot Theory",
+			"slug": "intro-to-knot-theory",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 407,
+		"fields": {
+			"name": "Intro to Algebraic Topology",
+			"slug": "intro-to-algebraic-topology",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 408,
+		"fields": {
+			"name": "Intro to Modern Analysis",
+			"slug": "intro-to-modern-analysis",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 409,
+		"fields": {
+			"name": "Probability Theory",
+			"slug": "probability-theory",
+			"department": "33"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 410,
+		"fields": {
+			"name": "Classical Control Systems",
+			"slug": "classical-control-systems",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 411,
+		"fields": {
+			"name": "Intro to Control Theory",
+			"slug": "intro-to-control-theory",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 412,
+		"fields": {
+			"name": "Modeling and Identification of Dynamic Systems",
+			"slug": "modeling-and-identification-of-dynamic-systems",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 413,
+		"fields": {
+			"name": "Molecular Mechanics in Biology",
+			"slug": "molecular-mechanics-in-biology",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 414,
+		"fields": {
+			"name": "Micromach/Jumbo Jets",
+			"slug": "micromach-jumbo-jets",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 415,
+		"fields": {
+			"name": "Intro to Mechanics of Fluids",
+			"slug": "intro-to-mechanics-of-fluids",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 416,
+		"fields": {
+			"name": "Thermodynamics",
+			"slug": "thermodynamics",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 417,
+		"fields": {
+			"name": "Mechanics of Machines",
+			"slug": "mechanics-of-machines",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 418,
+		"fields": {
+			"name": "Machine Design",
+			"slug": "machine-design",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 419,
+		"fields": {
+			"name": "Engineering Design Concept/Design Generation",
+			"slug": "engineering-design-concept-design-generation",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 420,
+		"fields": {
+			"name": "Mechatronics and Embedded Micro",
+			"slug": "mechatronics-and-embedded-micro",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 421,
+		"fields": {
+			"name": "Energy Sources and Conversion",
+			"slug": "energy-sources-and-conversion",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 422,
+		"fields": {
+			"name": "Microelectromechanical Systems",
+			"slug": "microelectromechanical-systems",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 423,
+		"fields": {
+			"name": "Turbomachinery",
+			"slug": "turbomachinery",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 424,
+		"fields": {
+			"name": "Solar Thermal Engineering",
+			"slug": "solar-thermal-engineering",
+			"department": "34"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 425,
+		"fields": {
+			"name": "Elementary Bengali I",
+			"slug": "elementary-bengali-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 426,
+		"fields": {
+			"name": "Elementary Arabic I",
+			"slug": "elementary-arabic-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 427,
+		"fields": {
+			"name": "Elementary Arabic II",
+			"slug": "elementary-arabic-ii",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 428,
+		"fields": {
+			"name": "Elementary Hindi-Urdu I",
+			"slug": "elementary-hindi-urdu-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 429,
+		"fields": {
+			"name": "Elementary Modern Eastern Armenian",
+			"slug": "elementary-modern-eastern-armenian",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 430,
+		"fields": {
+			"name": "Elementary Modern Hebrew I",
+			"slug": "elementary-modern-hebrew-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 431,
+		"fields": {
+			"name": "Elementary Modern Hebrew II",
+			"slug": "elementary-modern-hebrew-ii",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 432,
+		"fields": {
+			"name": "Elementary Modern Turkish I",
+			"slug": "elementary-modern-turkish-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 433,
+		"fields": {
+			"name": "Elementary Modern Turkish II",
+			"slug": "elementary-modern-turkish-ii",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 434,
+		"fields": {
+			"name": "Elementary Persian I",
+			"slug": "elementary-persian-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 435,
+		"fields": {
+			"name": "Elementary Sanskrit I",
+			"slug": "elementary-sanskrit-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 436,
+		"fields": {
+			"name": "Intermediate Arabic I",
+			"slug": "intermediate-arabic-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 437,
+		"fields": {
+			"name": "Intermediate Arabic II",
+			"slug": "intermediate-arabic-ii",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 438,
+		"fields": {
+			"name": "Intermediate Hebrew",
+			"slug": "intermediate-hebrew",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 439,
+		"fields": {
+			"name": "Intermediate Hindi I",
+			"slug": "intermediate-hindi-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 440,
+		"fields": {
+			"name": "Intermediate Modern Hebrew I",
+			"slug": "intermediate-modern-hebrew-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 441,
+		"fields": {
+			"name": "Intermediate Modern Hebrew II",
+			"slug": "intermediate-modern-hebrew-ii",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 442,
+		"fields": {
+			"name": "Intermediate Modern Turkish I",
+			"slug": "intermediate-modern-turkish-i",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 443,
+		"fields": {
+			"name": "Intermediate Modern Turkish II",
+			"slug": "intermediate-modern-turkish-ii",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 444,
+		"fields": {
+			"name": "Elementary Swahili",
+			"slug": "elementary-swahili",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 445,
+		"fields": {
+			"name": "Intermediate Swahili",
+			"slug": "intermediate-swahili",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 446,
+		"fields": {
+			"name": "Contemporary Islamic Civilization",
+			"slug": "contemporary-islamic-civilization",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 447,
+		"fields": {
+			"name": "Intro to Indian Civilizations",
+			"slug": "intro-to-indian-civilizations",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 448,
+		"fields": {
+			"name": "Intro to Islamic Civilization",
+			"slug": "intro-to-islamic-civilization",
+			"department": "35"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 449,
+		"fields": {
+			"name": "Musics of Indian and West Asia",
+			"slug": "musics-of-indian-and-west-asia",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 450,
+		"fields": {
+			"name": "Intro to Music I",
+			"slug": "intro-to-music-i",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 451,
+		"fields": {
+			"name": "Fundamentals of Western Music",
+			"slug": "fundamentals-of-western-music",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 452,
+		"fields": {
+			"name": "Introductory Ear-Training",
+			"slug": "introductory-ear-training",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 453,
+		"fields": {
+			"name": "Early Instruments",
+			"slug": "early-instruments",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 454,
+		"fields": {
+			"name": "Voice Instruction",
+			"slug": "voice-instruction",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 455,
+		"fields": {
+			"name": "Organ Instruction I",
+			"slug": "organ-instruction-i",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 456,
+		"fields": {
+			"name": "Intro to Piano I",
+			"slug": "intro-to-piano-i",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 457,
+		"fields": {
+			"name": "Elementary Piano Instruction I",
+			"slug": "elementary-piano-instruction-i",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 458,
+		"fields": {
+			"name": "Keyboard Harmony/Musicianship",
+			"slug": "keyboard-harmony-musicianship",
+			"department": "36"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 459,
+		"fields": {
+			"name": "Not Affiliated",
+			"slug": "not-affiliated",
+			"department": "51"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 460,
+		"fields": {
+			"name": "Math Logic I",
+			"slug": "math-logic-i",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 461,
+		"fields": {
+			"name": "Math Logic II",
+			"slug": "math-logic-ii",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 462,
+		"fields": {
+			"name": "Economics and Philosophy",
+			"slug": "economics-and-philosophy",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 463,
+		"fields": {
+			"name": "Intro to Philosophy",
+			"slug": "intro-to-philosophy",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 464,
+		"fields": {
+			"name": "Methods and Problems in Philosophic Thought",
+			"slug": "methods-and-problems-in-philosophic-thought",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 465,
+		"fields": {
+			"name": "Intro to Logic",
+			"slug": "intro-to-logic",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 466,
+		"fields": {
+			"name": "History of Philosophy: Pre-Socratics-Augustine",
+			"slug": "history-of-philosophy-pre-socratics-augustine",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 467,
+		"fields": {
+			"name": "History of Philosophy: Aquinas-Kant",
+			"slug": "history-of-philosophy-aquinas-kant",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 468,
+		"fields": {
+			"name": "History of Philosophy III: 19th/20th Century",
+			"slug": "history-of-philosophy-iii-19th-20th-century",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 469,
+		"fields": {
+			"name": "Contemporary Moral Problems",
+			"slug": "contemporary-moral-problems",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 470,
+		"fields": {
+			"name": "Kant",
+			"slug": "kant",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 471,
+		"fields": {
+			"name": "Philosophy of Language and Mind",
+			"slug": "philosophy-of-language-and-mind",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 472,
+		"fields": {
+			"name": "Existentialism",
+			"slug": "existentialism",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 473,
+		"fields": {
+			"name": "Phenomenology and Existentialism",
+			"slug": "phenomenology-and-existentialism",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 474,
+		"fields": {
+			"name": "20th Century European Philosophy",
+			"slug": "20th-century-european-philosophy",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 475,
+		"fields": {
+			"name": "Symbolic Logic",
+			"slug": "symbolic-logic",
+			"department": "37"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 476,
+		"fields": {
+			"name": "General Physics I",
+			"slug": "general-physics-i",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 477,
+		"fields": {
+			"name": "General Physics II",
+			"slug": "general-physics-ii",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 478,
+		"fields": {
+			"name": "Honors General Physics I",
+			"slug": "honors-general-physics-i",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 479,
+		"fields": {
+			"name": "Honors General Physics II",
+			"slug": "honors-general-physics-ii",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 480,
+		"fields": {
+			"name": "Intro to Electricity, Magnetism and Optics",
+			"slug": "intro-to-electricity-magnetism-and-optics",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 481,
+		"fields": {
+			"name": "Intro to Mechanics and Thermodynamics",
+			"slug": "intro-to-mechanics-and-thermodynamics",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 482,
+		"fields": {
+			"name": "Intro to Classical and Quantum Waves",
+			"slug": "intro-to-classical-and-quantum-waves",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 483,
+		"fields": {
+			"name": "Intro to Experimental Physics",
+			"slug": "intro-to-experimental-physics",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 484,
+		"fields": {
+			"name": "Physics I: Mechanics and Relativity",
+			"slug": "physics-i-mechanics-and-relativity",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 485,
+		"fields": {
+			"name": "Physics II: Thermodynamics, Electricity and Magnetism",
+			"slug": "physics-ii-thermodynamics-electricity-and-magnetism",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 486,
+		"fields": {
+			"name": "Physics for Poets I",
+			"slug": "physics-for-poets-i",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 487,
+		"fields": {
+			"name": "Physics for Poets II",
+			"slug": "physics-for-poets-ii",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 488,
+		"fields": {
+			"name": "Waves, Optics and Quantum Physics",
+			"slug": "waves-optics-and-quantum-physics",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 489,
+		"fields": {
+			"name": "Accelerated Physics I",
+			"slug": "accelerated-physics-i",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 490,
+		"fields": {
+			"name": "Accelerated Physics II",
+			"slug": "accelerated-physics-ii",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 491,
+		"fields": {
+			"name": "Mechanics",
+			"slug": "mechanics",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 492,
+		"fields": {
+			"name": "Electricy and Magnetism",
+			"slug": "electricy-and-magnetism",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 493,
+		"fields": {
+			"name": "From Quarks to the Cosmos: Applications of Modern Physics",
+			"slug": "from-quarks-to-the-cosmos-applications-of-modern-physics",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 494,
+		"fields": {
+			"name": "Electromagnetic Theory",
+			"slug": "electromagnetic-theory",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 495,
+		"fields": {
+			"name": "Quantum Mechanics I",
+			"slug": "quantum-mechanics-i",
+			"department": "38"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 496,
+		"fields": {
+			"name": "Political Theory I",
+			"slug": "political-theory-i",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 497,
+		"fields": {
+			"name": "Intro to American Government and Politics",
+			"slug": "intro-to-american-government-and-politics",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 498,
+		"fields": {
+			"name": "Intro to Comparative Politics",
+			"slug": "intro-to-comparative-politics",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 499,
+		"fields": {
+			"name": "Intro to International Relations",
+			"slug": "intro-to-international-relations",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 500,
+		"fields": {
+			"name": "Justice",
+			"slug": "justice",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 501,
+		"fields": {
+			"name": "Public Opinion and Democratic Theory",
+			"slug": "public-opinion-and-democratic-theory",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 502,
+		"fields": {
+			"name": "Nationalism, Republicanism, and Cosmopolitanism",
+			"slug": "nationalism-republicanism-and-cosmopolitanism",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 503,
+		"fields": {
+			"name": "Labor and American Politics",
+			"slug": "labor-and-american-politics",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 504,
+		"fields": {
+			"name": "State Politics",
+			"slug": "state-politics",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 505,
+		"fields": {
+			"name": "Workshop in Media and Politics",
+			"slug": "workshop-in-media-and-politics",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 506,
+		"fields": {
+			"name": "Mass Media and American Democracy",
+			"slug": "mass-media-and-american-democracy",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 507,
+		"fields": {
+			"name": "Logic of Collective Choice",
+			"slug": "logic-of-collective-choice",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 508,
+		"fields": {
+			"name": "Race-Ethnicity in American Politics",
+			"slug": "race-ethnicity-in-american-politics",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 509,
+		"fields": {
+			"name": "Latino Politics: Immigration",
+			"slug": "latino-politics-immigration",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 510,
+		"fields": {
+			"name": "Freedom of Speech and Press",
+			"slug": "freedom-of-speech-and-press",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 511,
+		"fields": {
+			"name": "American Urban Politics",
+			"slug": "american-urban-politics",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 512,
+		"fields": {
+			"name": "The American Congress",
+			"slug": "the-american-congress",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 513,
+		"fields": {
+			"name": "Challenges for Developing Democracies",
+			"slug": "challenges-for-developing-democracies",
+			"department": "39"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 514,
+		"fields": {
+			"name": "Intro to Psychology",
+			"slug": "intro-to-psychology",
+			"department": "40"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 515,
+		"fields": {
+			"name": "Behavioral Neuroscience",
+			"slug": "behavioral-neuroscience",
+			"department": "40"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 516,
+		"fields": {
+			"name": "Cognitive Psych",
+			"slug": "cognitive-psych",
+			"department": "40"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 517,
+		"fields": {
+			"name": "Developmental Psychology",
+			"slug": "developmental-psychology",
+			"department": "40"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 518,
+		"fields": {
+			"name": "Experimental Psych",
+			"slug": "experimental-psych",
+			"department": "40"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 519,
+		"fields": {
+			"name": "Mind, Brain, and Behavior",
+			"slug": "mind-brain-and-behavior",
+			"department": "40"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 520,
+		"fields": {
+			"name": "Perception",
+			"slug": "perception",
+			"department": "40"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 521,
+		"fields": {
+			"name": "Intro to East Asian Buddhism",
+			"slug": "intro-to-east-asian-buddhism",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 522,
+		"fields": {
+			"name": "Buddhism Indo-Tibetan",
+			"slug": "buddhism-indo-tibetan",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 523,
+		"fields": {
+			"name": "Christianity",
+			"slug": "christianity",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 524,
+		"fields": {
+			"name": "Islam",
+			"slug": "islam",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 525,
+		"fields": {
+			"name": "Chinese Religious Traditions",
+			"slug": "chinese-religious-traditions",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 526,
+		"fields": {
+			"name": "Intro to Judaism",
+			"slug": "intro-to-judaism",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 527,
+		"fields": {
+			"name": "Religion and the Modern World",
+			"slug": "religion-and-the-modern-world",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 528,
+		"fields": {
+			"name": "Muslims in Diaspora",
+			"slug": "muslims-in-diaspora",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 529,
+		"fields": {
+			"name": "Daoism",
+			"slug": "daoism",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 530,
+		"fields": {
+			"name": "Religion in America I",
+			"slug": "religion-in-america-i",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 531,
+		"fields": {
+			"name": "Literature Tech Religion",
+			"slug": "literature-tech-religion",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 532,
+		"fields": {
+			"name": "Religion and its Critics",
+			"slug": "religion-and-its-critics",
+			"department": "41"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 533,
+		"fields": {
+			"name": "Humanitarian Affairs Practicum",
+			"slug": "humanitarian-affairs-practicum",
+			"department": "42"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 534,
+		"fields": {
+			"name": "Energy Policy",
+			"slug": "energy-policy",
+			"department": "42"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 535,
+		"fields": {
+			"name": "International Human Rights Law",
+			"slug": "international-human-rights-law",
+			"department": "42"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 536,
+		"fields": {
+			"name": "Intro to International Development",
+			"slug": "intro-to-international-development",
+			"department": "42"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 537,
+		"fields": {
+			"name": "Special Operations and Low Intensity Conflict",
+			"slug": "special-operations-and-low-intensity-conflict",
+			"department": "42"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 538,
+		"fields": {
+			"name": "Immigration and Immigrants",
+			"slug": "immigration-and-immigrants",
+			"department": "42"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 539,
+		"fields": {
+			"name": "Accounting for International and Public Affairs",
+			"slug": "accounting-for-international-and-public-affairs",
+			"department": "42"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 540,
+		"fields": {
+			"name": "Budgeting for NGOs",
+			"slug": "budgeting-for-ngos",
+			"department": "42"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 541,
+		"fields": {
+			"name": "Management for International and Public Affairs",
+			"slug": "management-for-international-and-public-affairs",
+			"department": "42"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 542,
+		"fields": {
+			"name": "Russian I",
+			"slug": "russian-i",
+			"department": "43"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 543,
+		"fields": {
+			"name": "Elementary Ukrainian I",
+			"slug": "elementary-ukrainian-i",
+			"department": "43"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 544,
+		"fields": {
+			"name": "Introduction to Linguistics",
+			"slug": "introduction-to-linguistics",
+			"department": "43"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 545,
+		"fields": {
+			"name": "Survey of Yiddish Literature",
+			"slug": "survey-of-yiddish-literature",
+			"department": "43"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 546,
+		"fields": {
+			"name": "Masterpieces of 19th Centry Russian Literature",
+			"slug": "masterpieces-of-19th-centry-russian-literature",
+			"department": "43"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 547,
+		"fields": {
+			"name": "20th Century Ukrainian Prose",
+			"slug": "20th-century-ukrainian-prose",
+			"department": "43"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 548,
+		"fields": {
+			"name": "The Social World",
+			"slug": "the-social-world",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 549,
+		"fields": {
+			"name": "American Society",
+			"slug": "american-society",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 550,
+		"fields": {
+			"name": "Culture in America",
+			"slug": "culture-in-america",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 551,
+		"fields": {
+			"name": "Economy and Society",
+			"slug": "economy-and-society",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 552,
+		"fields": {
+			"name": "Israeli Society",
+			"slug": "israeli-society",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 553,
+		"fields": {
+			"name": "Race and Place in Urban America",
+			"slug": "race-and-place-in-urban-america",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 554,
+		"fields": {
+			"name": "Elites in Democratic America",
+			"slug": "elites-in-democratic-america",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 555,
+		"fields": {
+			"name": "Communities and Social Change",
+			"slug": "communities-and-social-change",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 556,
+		"fields": {
+			"name": "Crime, Law, and Society",
+			"slug": "crime-law-and-society",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 557,
+		"fields": {
+			"name": "Cultures, Markets and Consumption",
+			"slug": "cultures-markets-and-consumption",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 558,
+		"fields": {
+			"name": "Law, Science and Society",
+			"slug": "law-science-and-society",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 559,
+		"fields": {
+			"name": "Methods for Social Research",
+			"slug": "methods-for-social-research",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 560,
+		"fields": {
+			"name": "Global Urbanism",
+			"slug": "global-urbanism",
+			"department": "44"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 561,
+		"fields": {
+			"name": "Elementary Spanish I",
+			"slug": "elementary-spanish-i",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 562,
+		"fields": {
+			"name": "Elementary Spanish II",
+			"slug": "elementary-spanish-ii",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 563,
+		"fields": {
+			"name": "Intermediate Spanish I",
+			"slug": "intermediate-spanish-i",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 564,
+		"fields": {
+			"name": "Intermediate Spanish II",
+			"slug": "intermediate-spanish-ii",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 565,
+		"fields": {
+			"name": "Comprehensive Elementary Portuguese I and II",
+			"slug": "comprehensive-elementary-portuguese-i-and-ii",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 566,
+		"fields": {
+			"name": "Comprehensive Portuguese",
+			"slug": "comprehensive-portuguese",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 567,
+		"fields": {
+			"name": "Advanced Language Through Content",
+			"slug": "advanced-language-through-content",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 568,
+		"fields": {
+			"name": "Hispanic Cultures I",
+			"slug": "hispanic-cultures-i",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 569,
+		"fields": {
+			"name": "Hispanic Cultures II",
+			"slug": "hispanic-cultures-ii",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 570,
+		"fields": {
+			"name": "Latin American Humanities I",
+			"slug": "latin-american-humanities-i",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 571,
+		"fields": {
+			"name": "Latin American Humanities II",
+			"slug": "latin-american-humanities-ii",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 572,
+		"fields": {
+			"name": "Advanced Spanish Grammar",
+			"slug": "advanced-spanish-grammar",
+			"department": "45"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 573,
+		"fields": {
+			"name": "Intro to Statistics",
+			"slug": "intro-to-statistics",
+			"department": "46"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 574,
+		"fields": {
+			"name": "Intro to Statistical Reasoning",
+			"slug": "intro-to-statistical-reasoning",
+			"department": "46"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 575,
+		"fields": {
+			"name": "Applied Linear Regression Analysis",
+			"slug": "applied-linear-regression-analysis",
+			"department": "46"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 576,
+		"fields": {
+			"name": "Applied Statistical Methods",
+			"slug": "applied-statistical-methods",
+			"department": "46"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 577,
+		"fields": {
+			"name": "Intro to Statistical Inference",
+			"slug": "intro-to-statistical-inference",
+			"department": "46"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 578,
+		"fields": {
+			"name": "Intro to Probability",
+			"slug": "intro-to-probability",
+			"department": "46"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 579,
+		"fields": {
+			"name": "Data Analysis",
+			"slug": "data-analysis",
+			"department": "46"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 580,
+		"fields": {
+			"name": "Data Mining",
+			"slug": "data-mining",
+			"department": "46"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 581,
+		"fields": {
+			"name": "Probability",
+			"slug": "probability",
+			"department": "46"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 582,
+		"fields": {
+			"name": "Intro to Sustainable Development",
+			"slug": "intro-to-sustainable-development",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 583,
+		"fields": {
+			"name": "Intro to Environmental Law",
+			"slug": "intro-to-environmental-law",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 584,
+		"fields": {
+			"name": "Challaneges of Sustainable Development",
+			"slug": "challaneges-of-sustainable-development",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 585,
+		"fields": {
+			"name": "Economic and Financial Methods for Sustainable Development",
+			"slug": "economic-and-financial-methods-for-sustainable-development",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 586,
+		"fields": {
+			"name": "Fundamentals of Global Health",
+			"slug": "fundamentals-of-global-health",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 587,
+		"fields": {
+			"name": "Global Food Systems",
+			"slug": "global-food-systems",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 588,
+		"fields": {
+			"name": "Workshop in Sustainable Development",
+			"slug": "workshop-in-sustainable-development",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 589,
+		"fields": {
+			"name": "Ethics of Sustainable Development",
+			"slug": "ethics-of-sustainable-development",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 590,
+		"fields": {
+			"name": "Ecological and Social Systems for Sustainable Development",
+			"slug": "ecological-and-social-systems-for-sustainable-development",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 591,
+		"fields": {
+			"name": "Climate Change and Law",
+			"slug": "climate-change-and-law",
+			"department": "47"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 592,
+		"fields": {
+			"name": "Intro to Urban Ethnographies",
+			"slug": "intro-to-urban-ethnographies",
+			"department": "48"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 593,
+		"fields": {
+			"name": "Science and Technology in Urban Environments",
+			"slug": "science-and-technology-in-urban-environments",
+			"department": "48"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 594,
+		"fields": {
+			"name": "Metropolotics of Race and Place",
+			"slug": "metropolotics-of-race-and-place",
+			"department": "48"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 595,
+		"fields": {
+			"name": "Introduction to Urban Sociology",
+			"slug": "introduction-to-urban-sociology",
+			"department": "48"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 596,
+		"fields": {
+			"name": "Race, Gender, and Urban Violence",
+			"slug": "race-gender-and-urban-violence",
+			"department": "48"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 597,
+		"fields": {
+			"name": "Beginning Video",
+			"slug": "beginning-video",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 598,
+		"fields": {
+			"name": "Advanced Video",
+			"slug": "advanced-video",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 599,
+		"fields": {
+			"name": "Basic Drawing",
+			"slug": "basic-drawing",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 600,
+		"fields": {
+			"name": "Drawing II",
+			"slug": "drawing-ii",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 601,
+		"fields": {
+			"name": "Figure Drawing I and II",
+			"slug": "figure-drawing-i-and-ii",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 602,
+		"fields": {
+			"name": "Painting I",
+			"slug": "painting-i",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 603,
+		"fields": {
+			"name": "Painting II",
+			"slug": "painting-ii",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 604,
+		"fields": {
+			"name": "Ceramics I",
+			"slug": "ceramics-i",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 605,
+		"fields": {
+			"name": "Ceramics II",
+			"slug": "ceramics-ii",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 606,
+		"fields": {
+			"name": "Sculpture I",
+			"slug": "sculpture-i",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 607,
+		"fields": {
+			"name": "Sculpture II",
+			"slug": "sculpture-ii",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 608,
+		"fields": {
+			"name": "Sculpture III",
+			"slug": "sculpture-iii",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 609,
+		"fields": {
+			"name": "Intro to Printmaking",
+			"slug": "intro-to-printmaking",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 610,
+		"fields": {
+			"name": "Printmaking I",
+			"slug": "printmaking-i",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 611,
+		"fields": {
+			"name": "Printmaking II",
+			"slug": "printmaking-ii",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 612,
+		"fields": {
+			"name": "Photography I",
+			"slug": "photography-i",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 613,
+		"fields": {
+			"name": "Photography II",
+			"slug": "photography-ii",
+			"department": "49"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 614,
+		"fields": {
+			"name": "Intro to Womens and Gender Studies",
+			"slug": "intro-to-womens-and-gender-studies",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 615,
+		"fields": {
+			"name": "Women and Health",
+			"slug": "women-and-health",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 616,
+		"fields": {
+			"name": "Women and Film",
+			"slug": "women-and-film",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 617,
+		"fields": {
+			"name": "Black Women in America",
+			"slug": "black-women-in-america",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 618,
+		"fields": {
+			"name": "Women and Art",
+			"slug": "women-and-art",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 619,
+		"fields": {
+			"name": "Intro to Sexuality Studies",
+			"slug": "intro-to-sexuality-studies",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 620,
+		"fields": {
+			"name": "Intro to Gay and Lesbian Studies",
+			"slug": "intro-to-gay-and-lesbian-studies",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 621,
+		"fields": {
+			"name": "Women's Bodies and Global Conflicts",
+			"slug": "womens-bodies-and-global-conflicts",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 622,
+		"fields": {
+			"name": "Unheard Voices: African Women's Literature",
+			"slug": "unheard-voices-african-womens-literature",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 623,
+		"fields": {
+			"name": "Women in Israel: An Introduction",
+			"slug": "women-in-israel-an-introduction",
+			"department": "50"
+		}
+	},
+	{
+		"model": "course.coursemodel",
+		"pk": 624,
+		"fields": {
+			"name": "Feminist Sexual Politics in Historical Perspective",
+			"slug": "feminist-sexual-politics-in-historical-perspective",
+			"department": "50"
+		}
+	}
+]

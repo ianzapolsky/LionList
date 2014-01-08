@@ -1,0 +1,418 @@
+[
+	{
+		"model": "course.departmentmodel",
+		"pk": 1,
+		"fields": {
+			"name": "CORE",
+			"slug": "core"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 2,
+		"fields": {
+			"name": "african-american studies",
+			"slug": "african-american-studies"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 3,
+		"fields": {
+			"name": "american studies",
+			"slug": "american-studies"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 4,
+		"fields": {
+			"name": "anthropology",
+			"slug": "anthropology"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 5,
+		"fields": {
+			"name": "app physics + math",
+			"slug": "app-physics-and-math"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 6,
+		"fields": {
+			"name": "archaeology",
+			"slug": "archaeology"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 7,
+		"fields": {
+			"name": "architecture",
+			"slug": "architecture"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 8,
+		"fields": {
+			"name": "art history",
+			"slug": "art-history"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 9,
+		"fields": {
+			"name": "astronomy",
+			"slug": "astronomy"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 10,
+		"fields": {
+			"name": "bio + biomed eng",
+			"slug": "bio-and-biomed-eng"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 11,
+		"fields": {
+			"name": "business",
+			"slug": "business"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 12,
+		"fields": {
+			"name": "chem + chem eng",
+			"slug": "chem-and-chem-eng"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 13,
+		"fields": {
+			"name": "civil eng",
+			"slug": "civil-eng"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 14,
+		"fields": {
+			"name": "classics",
+			"slug": "classics"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 15,
+		"fields": {
+			"name": "comp sci",
+			"slug": "comp-sci"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 16,
+		"fields": {
+			"name": "dance",
+			"slug": "dance"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 17,
+		"fields": {
+			"name": "earth + env eng",
+			"slug": "earth-and-env-eng"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 18,
+		"fields": {
+			"name": "earth + env sci",
+			"slug": "earth-and-env-sci"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 19,
+		"fields": {
+			"name": "east asian lang + cultures",
+			"slug": "east-asian-lang-and-cultures"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 20,
+		"fields": {
+			"name": "ecology, evolution, + env bio",
+			"slug": "ecology-evolution-and-env-bio"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 21,
+		"fields": {
+			"name": "economics",
+			"slug": "economics"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 22,
+		"fields": {
+			"name": "electrical eng",
+			"slug": "electrical-eng"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 23,
+		"fields": {
+			"name": "english + comp lit",
+			"slug": "english-and-comp-lit"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 24,
+		"fields": {
+			"name": "ethnic studies",
+			"slug": "ethnic-studies"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 25,
+		"fields": {
+			"name": "film",
+			"slug": "film"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 26,
+		"fields": {
+			"name": "french",
+			"slug": "french"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 27,
+		"fields": {
+			"name": "germanic lang + lit",
+			"slug": "germanic-lang-and-lit"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 28,
+		"fields": {
+			"name": "history",
+			"slug": "history"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 29,
+		"fields": {
+			"name": "human rights",
+			"slug": "human-rights"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 30,
+		"fields": {
+			"name": "industrial eng + operations research",
+			"slug": "industrial-eng-and-operations-research"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 31,
+		"fields": {
+			"name": "italian",
+			"slug": "italian"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 32,
+		"fields": {
+			"name": "law",
+			"slug": "law"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 33,
+		"fields": {
+			"name": "math",
+			"slug": "math"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 34,
+		"fields": {
+			"name": "mech eng",
+			"slug": "mech-eng"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 35,
+		"fields": {
+			"name": "middle east-asian lang + cultures",
+			"slug": "middle-east-asian-lang-and-cultures"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 36,
+		"fields": {
+			"name": "music",
+			"slug": "music"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 37,
+		"fields": {
+			"name": "philosophy",
+			"slug": "philosophy"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 38,
+		"fields": {
+			"name": "physics",
+			"slug": "physics"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 39,
+		"fields": {
+			"name": "poli sci",
+			"slug": "poli-sci"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 40,
+		"fields": {
+			"name": "psych",
+			"slug": "psych"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 41,
+		"fields": {
+			"name": "religion",
+			"slug": "religion"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 42,
+		"fields": {
+			"name": "SIPA",
+			"slug": "sipa"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 43,
+		"fields": {
+			"name": "slavic languages",
+			"slug": "slavic-languages"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 44,
+		"fields": {
+			"name": "sociology",
+			"slug": "sociology"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 45,
+		"fields": {
+			"name": "spanish + portuese",
+			"slug": "spanish-and-portuese"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 46,
+		"fields": {
+			"name": "statistics",
+			"slug": "statistics"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 47,
+		"fields": {
+			"name": "sustainable development",
+			"slug": "sustainable-development"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 48,
+		"fields": {
+			"name": "urban studies",
+			"slug": "urban-studies"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 49,
+		"fields": {
+			"name": "visual arts",
+			"slug": "visual-arts"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 50,
+		"fields": {
+			"name": "women's studies",
+			"slug": "womens-studies"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 51,
+		"fields": {
+			"name": "Not Affiliated",
+			"slug": "not-affiliated"
+		}
+	},
+	{
+		"model": "course.departmentmodel",
+		"pk": 52,
+		"fields": {
+			"name": "linguistics",
+			"slug": "linguistics"
+		}
+	}
+]

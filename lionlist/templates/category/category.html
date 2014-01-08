@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  categories/{{ category.name }}
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <div class="med">
+    <h1>
+      <a href="/categories/">categories</a>/<a href="{{ category.get_absolute_url }}">{{ category.name }}</a>
+    </h1>
+        
+    <table class="table table-condensed">
+	    {% for post in object_list %}
+        {% if post.forsale == "forsale" %}
+          <tr class="item" href="{{ post.get_absolute_url }}">
+        {% else %}
+          <tr class="wanted" href="{{ post.get_absolute_url }}">
+        {% endif %}
+        <td class="left">
+	        <a>{{ post.title }}</a>
+        </td>
+        <td class="cntr">
+          {{ post.forsale }} for  ${{ post.price }}
+        </td>
+      </tr>
+      {% empty %}
+        <tr class="msg">
+          <td>I'm sorry, there don't appear to be any posts here.</td>
+        </tr>
+	    {% endfor %}
+    </table>
+
+  </div>
+
+  <div class="sm">
+
+    <h1>filter results</h1>
+
+    <form action="" class="small-font form-util" method="post" id="filter_form">
+    {% csrf_token %}
+
+      <table class="super-condensed table table-condensed">
+        {% for field in filter_form %}
+          <tr><td>
+            <span class="help-block">{{ field.label }}
+              {% render_field field class+="form-control input-sm" %}
+            </span>
+          </td></tr>
+        {% endfor %} 
+
+        {% ifequal category.name "books" %}
+          <tr><td>
+            <p>filter by course:</h2>
+            <p class="error" id="filter_form_errors"></p>
+          </td></tr>
+
+          <tr><td>
+            <select class="form-control input-sm" name="department" 
+            id="select_department">
+              <option value="empty">department</option>
+              {% for d in departments %}
+                <option value="{{ d.name }}"{% ifequal d.name department.name %} 
+                selected="selected"{% endifequal %}>
+                  {{ d.name }}
+                </option>
+              {% endfor %}
+            </select>
+          </td></tr>
+
+          <tr><td> 
+            <select class="form-control input-sm" name="course" 
+            id="select_course">
+              <option value="empty">course</option>
+              {% for c in courses %}
+                <option value="{{ c.name }}"{% ifequal c.name course.name %} 
+                selected="selected"{% endifequal %}>
+                  {{ c.name }}
+                </option>
+              {% endfor %}
+            </select>
+          </td></tr>
+
+        {% endifequal %}
+
+        <tr><td>
+          <button type="submit" id="course_submit" 
+          class="btn btn-primary btn-block btn-sm">
+            submit
+          </button>
+        </td></tr>
+
+      </form>
+
+    </table>
+
+  <script>
+  
+    $( ".item, .wanted" ).click(function() {
+      window.document.location = $( this ).attr("href");
+    });
+
+    $( "#select_department" ).change(function () {
+      $( "#filter_form" ).get(0).setAttribute("action", "/categories/books/");
+      $( "#filter_form" ).submit();
+    });
+
+    $( "#filter_form" ).submit(function(event) {
+      if ( $( "#filter_form" ).get(0).getAttribute("action") != "/categories/books/" ) {
+        if ( $( "#select_department" ).val() != "empty" && $( "#select_course" ).val() === "empty" ) {
+          $( "#filter_form_errors" ).text( "please specify a department and a course." ).show();
+          event.preventDefault();
+        }
+      }
+    });
+  </script>
+
+  </div>
+
+{% endblock %}

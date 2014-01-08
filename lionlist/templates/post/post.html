@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+  categories/{{ post.category.name }}/{{ post.title }}
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <div class="xlg">
+    
+    <h1>
+      <a href="/categories/">categories</a>/<a href="{{ post.category.get_absolute_url }}">{{ post.category.name }}</a>/<a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+    </h1>
+
+    <table class="table table-condensed">
+      {% for msg in messages %}
+        <tr class="msg">
+          <td>{{ msg }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+
+      <table class="table table-condensed table-post">
+        <tr><td class="title"><h2>{{ post.title|urlize }}</h2></td>
+          {% ifequal admin "yes" %}
+            <td class="cntr"> 
+              <a href="{{ post.get_absolute_url }}/edit">
+                <button class="btn-warning btn-sm">edit post</button>
+              </a>
+            </td>
+          {% endifequal %}
+          <td class="cntr"><a href="#" 
+              onclick="
+                window.open(
+                  'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+                  'facebook-share-dialog', 
+                  'width=626,height=436'); 
+                return false;">
+    
+            <button class="btn btn-primary btn-sm">Share on Facebook</button></a>
+          </td>
+          <td class="cntr">
+            <form action="" method="post" id="save_form">{% csrf_token %}
+              <input type="hidden" name="post_title" value="{{ post.title }}">
+              <button class="btn btn-success btn-sm" id="save" type="submit">bookmark</button>
+            </form>
+          </td>
+         </tr>
+        </table>
+
+
+        <table class="table table-condensed">
+
+        <tr><td><h4><strong>{{ post.forsale }}</strong> by <strong>
+                <a href="mailto:{{ post.poster.get_email }}">{{ post.poster }}</a>
+                </strong> in <strong>{{ post.poster_location }}</strong> for 
+                <strong>${{ post.price }}</strong></h4></td>
+            <td></td>
+            <td><h4>created on {{ post.created }}</h4>
+                <a href="mailto:{{ post.poster.get_email }}"><button class="btn btn-info btn-sm">contact the poster</button></a></td>
+        </tr>
+        <tr><td></td><td></td><td></td></tr>
+        </table>
+
+        {% if post.author %}
+          <h4><strong>author:</strong> {{ post.author }}</h4>
+        {% endif %}
+
+        {% if post.course %}
+          <h4><strong>course:</strong> <a href="{{post.course.get_absolute_url}}">{{ post.course }}</a></h4>
+        {% endif %}
+
+        {% if post.edition %}
+          <h4><strong>edition:</strong> {{ post.edition }}</h4>
+        {% endif %}
+
+        {% if post.isbn %}
+          <h4><strong>isbn#:</strong> {{ post.isbn }}</h4>
+        {% endif %}
+
+        {% if post.description %}
+          <h4>description:</h4><p>{{ post.description|urlize }}</p>
+        {% endif %}
+
+        {% if post.image %}
+          <hr>
+          <div class="imgblock">
+            <a href="{{ post.image.url }}">
+              <img align="center" src="{{ post.image.url }}" /> 
+            </a>
+          </div>
+        {% endif %}
+
+        <hr>
+
+    </div> 
+
+{% endblock %}

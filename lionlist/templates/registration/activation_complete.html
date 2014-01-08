@@ -1,0 +1,18 @@
+{% extends 'base_clean.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  activation complete
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <h1 class="centered">activation complete</h1>
+  <h4 class="centered">Please visit <a href="/account/login/">the sign in page</a> to login.</a></h4>
+
+{% endblock %}

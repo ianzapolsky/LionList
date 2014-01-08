@@ -1,0 +1,23 @@
+{% extends 'base_clean.html' %}
+
+{% load i18n %}
+{% load url from future %}
+
+{% block title %}
+  reset success 
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <h1 class="centered">password reset successful</h1>
+  <h4 class="centered">Please 
+    <a href="/account/login/">return to the sign in page</a> to login
+     with your new password.
+  </h4>
+
+{% endblock %}
+

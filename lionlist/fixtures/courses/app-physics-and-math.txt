@@ -1,0 +1,13 @@
+5
+Anatomy for Physicists and Engineers
+Applied Math I Linear Algebra
+Applied Math III Dynamical Systems
+Applied Function Analysis
+Partial Differential Equations
+Functions of a Complex Variable
+Numerical Methods
+Mechanics Fundamentals and Applications
+Intro to Nuclear Science
+Quantum Physics of Matter
+Modern Optics
+Physics and Solar Energy

@@ -1,0 +1,16 @@
+34
+Classical Control Systems
+Intro to Control Theory
+Modeling and Identification of Dynamic Systems
+Molecular Mechanics in Biology
+Micromach/Jumbo Jets
+Intro to Mechanics of Fluids
+Thermodynamics
+Mechanics of Machines
+Machine Design
+Engineering Design Concept/Design Generation
+Mechatronics and Embedded Micro
+Energy Sources and Conversion
+Microelectromechanical Systems
+Turbomachinery
+Solar Thermal Engineering

@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block title %}
+  create post
+{% endblock %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+  <section class="lg">
+    
+    <h1>
+      <a href="/categories/create/">create post</a>/{{ category.name }}
+    </h1>
+
+    <form class="form-util" enctype="multipart/form-data" action="" 
+    method="post">
+      {% csrf_token %}
+
+      <!--
+      {% for field in form %}
+        {% if field.errors %}
+          <p class="error">error in {{ field.label }}</p>
+        {% endif %}
+      {% endfor %}
+      -->
+    
+      <table class="super-condensed table table-hover table-condensed">
+      {% for field in form %}
+        <tr> 
+          <td>
+            <span class="help-block">{{ field.label }} {{field.help_text}}</span>
+            {% if field.errors %}
+              <span class="help-block has-error">
+                {% for error in field.errors %}
+                  <p class="error">{{ error }}</p>
+                {% endfor %}
+                {% render_field field class+="form-control input-sm" rows="4" %}
+              </span>
+            {% else %}
+              {% render_field field class+="form-control input-sm" rows="4" %}
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+      <tr>
+        <td><button class="btn btn-lg btn-success btn-block" type="submit">Submit</button>
+      </tr>
+      </form>
+    </table>
+  </section>
+
+  <section class="sm">
+    <h1>info:</h1>
+      <p>We update our search indexes every hour, so don't worry if your new
+         post isn't immediately searchable. It will be within the next 60 minutes.</p>
+      {% if category.name == "books" %}
+      <hr>
+      <h2>Don't see the course you're looking for?</h2>
+      <p>If you don't see the class that you're looking for, shoot us an email
+         at <a href="mailto:lionlist@gmail.com">lionlistcu@gmail.com</a> with
+         the course's department, name, and number and we'll check for its 
+         existence and then put it up as fast as we can.</p>
+      {% endif %}
+  </section>
+
+{% endblock %}
+
