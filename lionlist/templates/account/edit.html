@@ -16,17 +16,15 @@
 
     <h1>edit account</h1>
 
-    {% if messages %}
-    <table class="table table-condensed">
-      {% for msg in messages %}
-        <tr class="msg">
-          <td>{{ msg }}</td>
-        </tr>
-      {% endfor %}
-    </table>
-    {% endif %}
+    <form id="edit-form" class="form-util" action="" method="post">
 
-    <form class="form-util" action="" method="post">{% csrf_token %}
+    {% for msg in messages %}
+      <p class="msg">{{ msg }}</p>
+    {% endfor %}
+
+    <p class="error" id="form-label"></p>
+
+    {% csrf_token %}
       {% for field in form %}
         {% for error in field.errors %}
           <p class="error">{{ error }}</p>
@@ -37,26 +35,44 @@
       {% endfor %}
     
     <span class="help-block">You must enter your current password to make any changes.</span>
-    <input type="password" class="form-control" name="current_password" placeholder="Current password">
+    <div id="password-div" class="form-group">
+    <p id="password-label" class="error"></p>
+    <input id="password" type="password" class="form-control" name="current_password" placeholder="Current password">
+    </div>
+
     <hr>
 
     <span class="help-block">Change your password</span>
-    <input type="password" class="form-control" name="new_password" placeholder="New password">
-    <input type="password" class="form-control" name="new_password_check" placeholder="Confirm new password">
+    <div id="password1-div" class="form-group">
+    <p id="password1-label" class="error"></p>
+    <input id="password1" type="password" class="form-control" name="new_password" placeholder="New password">
+    <input id="password2" type="password" class="form-control" name="new_password_check" placeholder="Confirm new password">
+    </div>
     <hr>
 
     <span class="help-block">Change the email address that LionList uses (current: {{ user.get_profile.get_email }})</span>    
-    <input type="text" class="form-control" name="new_email" placeholder="New email">
+    <div id="email-div" class="form-group">
+    <p id="email-label" class="error"></p>
+    <input id="email" type="text" class="form-control" name="new_email" placeholder="New email">
+    </div>
     <hr>
 
     <span class="help-block">Change your campus location (current: {{ user.get_profile.location }})</span>
-    {% render_field form.location class+="form-control input-lg" %}
+    {% render_field form.location id+="location" class+="form-control input-lg" %}
    
     <hr>
 
     <button class="btn btn-primary btn-block" type="submit">Submit</button>
     </form>
+
     </div>
+  
+    <script>
+      var current_username = "{{user.username}}";
+      $( document ).ready(function() {
+        edit_account.initModule();
+      });
+    </script>
 
 {% endblock %}
 

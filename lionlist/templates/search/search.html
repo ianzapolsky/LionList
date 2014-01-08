@@ -19,13 +19,16 @@
     <h3>Results: Posts</h3>
     <table class="table table-condensed">
       {% for result in post_list %}
-        <tr class="item"> 
-          <td class="item"><a href="{{ result.object.get_absolute_url }}">{{ result.title }}</a></td>
-          <td class="item">{{ result.object.forsale }} for ${{ result.object.price }}</td>
+        {% if result.object.forsale == "forsale" %}
+          <tr class="item" href="{{ result.object.get_absolute_url }}"> 
+        {% else %}
+          <tr class="wanted" href="{{ result.object.get_absolute_url }}">
+            <td class="left"><a href="{{ result.object.get_absolute_url }}">{{ result.object.title }}</a></td>
+          <td class="cntr">{{ result.object.forsale }} for ${{ result.object.price }}</td>
         </tr>
       {% empty %}
         <tr class="msg">
-          <td class="msg">No results found.</td>
+          <td>No results found.</td>
         </tr>    
       {% endfor %}
     </table>
@@ -38,7 +41,7 @@
           </tr>
         {% empty %}
           <tr class="msg">
-            <td class="msg">No results found.</td>
+            <td>No results found.</td>
           </tr>
         {% endfor %}
     </table>

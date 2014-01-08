@@ -19,7 +19,7 @@
     </h1>
 
     <form class="form-util" enctype="multipart/form-data" action="" 
-    method="post">
+    method="post" id="create-form">
       {% csrf_token %}
 
       <!--
@@ -29,12 +29,13 @@
         {% endif %}
       {% endfor %}
       -->
-    
+
       <table class="super-condensed table table-hover table-condensed">
       {% for field in form %}
         <tr> 
           <td>
-            <span class="help-block">{{ field.label }} {{field.help_text}}</span>
+            <span id="{{ field.name }}-div" class="help-block">{{ field.label }} {{field.help_text}}
+            <p id="{{ field.name }}-label" class="error"></p>
             {% if field.errors %}
               <span class="help-block has-error">
                 {% for error in field.errors %}
@@ -45,6 +46,7 @@
             {% else %}
               {% render_field field class+="form-control input-sm" rows="4" %}
             {% endif %}
+            </span>
           </td>
         </tr>
       {% endfor %}

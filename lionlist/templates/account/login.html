@@ -11,126 +11,54 @@
 
 {% block content %}
 
-      <div class="jumbotron">
-        <h1>Welcome to LionList!</h1>
-        <p>LionList is a website where Columbia University students can buy and 
-           sell everything from textbooks, to furniture, to concert tickets 
-           amongst themselves.
-        </p>
-        <p>
-          <a href="/account/register/" class="btn btn-primary btn-lg btn-block">
-            Sign up
-          </a>
-        </p>
+  <div class="jumbotron">
+    <h1>Welcome to LionList!</h1>
 
-        <h1>Already signed up?</h1>
+    <p>LionList is a website where Columbia University students can buy and 
+       sell everything from textbooks, to furniture, to concert tickets 
+       amongst themselves.
+    </p>
 
-        <form id="login-form" action="" method="post" class="form-util">
-        {% csrf_token %}
+    <p>
+      <a href="/account/register/" class="btn btn-primary btn-lg btn-block">
+        Sign up
+      </a>
+    </p>
 
-          <div id="uni-div" class="form-group">
-            <p id="uni-label" class="error"></p>
-            <input id="uni" type="text" class="form-control" placeholder="UNI" 
-            name="username">
-          </div>
+    <h1>Already signed up?</h1>
 
-          <div id="password-div" class="form-group">
-            <p id="password-label" class="error"></p>
-            <input id="password" type="password" class="form-control" 
-            placeholder="Password" name="password">
-          </div>
+    <form id="login-form" action="" method="post" class="form-util">
+    {% csrf_token %}
 
-          <p class="msg">
-            <a href="/account/forgot/">Forgot your password?</a>
-          </p>
-
-          <button id="submit_btn" type="submit" 
-          class="btn btn-lg btn-success btn-block">
-            Login 
-          </button>
-
-        </form>
-
+      <div id="uni-div" class="form-group">
+        <p id="uni-label" class="error"></p>
+        <input id="uni" type="text" class="form-control" placeholder="UNI" 
+        name="username">
       </div>
 
-    <script>
+      <div id="password-div" class="form-group">
+        <p id="password-label" class="error"></p>
+        <input id="password" type="password" class="form-control" 
+        placeholder="Password" name="password">
+      </div>
 
-      var uni_error = false;
-      var password_error = false;
+      <p class="text">
+        <a href="/account/forgot/">Forgot your password?</a>
+      </p>
 
-      $( '#uni' ).change(function() {
+      <button id="submit_btn" type="submit" 
+      class="btn btn-lg btn-success btn-block">
+        Login 
+      </button>
 
-        var username = $( '#uni' ).val();
-        
-        $.ajax({
-          url: '/account/ajax/is_username/'+username+'/',
-          type: 'GET',
-          async: true,
-          dataType: 'json',
-          success: function( data ) {
-            if (data.msg === false) {
-              $( '#uni-label' ).html('Invalid UNI');
-              $( '#uni-div' ).removeClass('has-success');
-              $( '#uni-div' ).addClass('has-error');
-              uni_error = true;
-            } else {
-              $( '#uni-label' ).html('');
-              $( '#uni-div' ).removeClass('has-error');
-              $( '#uni-div' ).addClass('has-success');
-              uni_error = false;
-            }
-          }
-        });
-      });
+    </form>
 
-      $( '#password' ).change(function() {
-        var username = $( '#uni' ).val();
-        var password = $( '#password' ).val();
+  </div>
 
-        $.ajax({
-          url: '/account/ajax/is_valid_password/'+username+'/'+password+'/',
-          type: 'GET',
-          async: true,
-          dataType: 'json',
-          success: function( data ) {
-            if (data.msg === false) {
-              if (username === '') {
-                $( '#password-label' ).html('Please enter your UNI');
-              } else {
-                $( '#password-label' ).html('Invalid password');
-              }
-              $( '#password-div' ).removeClass('has-success');
-              $( '#password-div' ).addClass('has-error');
-              password_error = true;
-            } else {
-              $( '#password-label' ).html('');
-              $( '#password-div' ).removeClass('has-error');
-              $( '#password-div' ).addClass('has-success');
-              password_error = false;
-            }
-          }
-        });
-      });
+  <script>
+    $( document ).ready(function() {
+      login.initModule();
+    });
+  </script>
 
-      $( '#login-form' ).submit(function(event) {
-        if ($( '#uni' ).val() === '') {
-          $( '#uni-label' ).html('Please enter your UNI');
-          $( '#uni-div' ).removeClass('has-success');
-          $( '#uni-div' ).addClass('has-error');
-          uni_error = true;
-        }
-        if ($( '#password' ).val() === '') {
-          $( '#password-label' ).html('Please enter your password');
-          $( '#password-div' ).removeClass('has-success');
-          $( '#password-div' ).addClass('has-error');
-          password_error = true;
-        }
-        if (uni_error === true || password_error === true) {
-          event.preventDefault();
-        } 
-      });
-        
-    </script>
-
-    
 {% endblock %}

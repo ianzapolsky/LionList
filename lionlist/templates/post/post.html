@@ -17,13 +17,10 @@
       <a href="/categories/">categories</a>/<a href="{{ post.category.get_absolute_url }}">{{ post.category.name }}</a>/<a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
     </h1>
 
-    <table class="table table-condensed">
-      {% for msg in messages %}
-        <tr class="msg">
-          <td>{{ msg }}</td>
-        </tr>
-      {% endfor %}
-    </table>
+    {% for msg in messages %}
+      <p class="msg">{{ msg }}</p>
+    {% endfor %}
+
 
       <table class="table table-condensed table-post">
         <tr><td class="title"><h2>{{ post.title|urlize }}</h2></td>
@@ -99,5 +96,6 @@
         <hr>
 
     </div> 
+
 
 {% endblock %}

@@ -23,12 +23,13 @@ urlpatterns = patterns('category.views',
     # generic category detail 
     url(r'^(?P<slug>[-\w\d]+)/$', CategoryDetailView.as_view()),
 
-    # generic create 
-    # url(r'^(?P<slug>[-\w\d]+)/create/$', PostCreateView.as_view()),
-
     # generic post detail
     url(r'^(?P<category_slug>[-\w\d]+)/(?P<slug>[-\w\d]+)/$', PostDetailView.as_view()),
 
     # gneric post edit
     url(r'^(?P<category_slug>[-\w\d]+)/(?P<slug>[-\w\d]+)/edit/$', PostEditView.as_view()),
+
+    # post ajax
+    url(r'^ajax/is_valid_title/(.*)/$', is_valid_title),
+
 )

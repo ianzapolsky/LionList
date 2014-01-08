@@ -2,8 +2,9 @@
 # by Ian Zapolsky
 #
 # django imports
+import json
 from django.contrib import messages
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.template import RequestContext
 from django.shortcuts import render_to_response, get_object_or_404, redirect
 from django.views.generic import DetailView, View
@@ -170,3 +171,17 @@ class PostEditView(LoginRequiredMixin, View):
             return HttpResponseRedirect(p.get_absolute_url())
         else:
             return render_to_response('post/edit.html', context, context_instance=RequestContext(self.request))
+
+# ajax methods
+
+def is_valid_title(request, title):
+
+    response_data = {}
+
+    if PostModel.objects.filter(title=title).count() > 0:
+        response_data['error'] = True 
+    else:
+        response_data['error'] = False
+
+    return HttpResponse(json.dumps(response_data),
+                        content_type="application/json")

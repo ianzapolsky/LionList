@@ -44,5 +44,6 @@ urlpatterns = patterns('account.views',
     url(r'^ajax/is_username/(.+)/$', is_username),
     url(r'^ajax/is_valid_password/(.*)/(.*)/$', is_valid_password),
     url(r'^ajax/validate_passwords/(.*)/(.*)/$', validate_passwords),
+    url(r'^ajax/is_valid_email/(.*)/$', is_valid_email),
 
 )

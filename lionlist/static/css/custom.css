@@ -22,6 +22,13 @@ img {
   max-height:300px;
 }
 
+p.msg {
+  text-align:left;
+  font-size:16px;
+  color:green;
+  font-color:green;
+}
+
 /* static navigation bar */
 .navigation {
   position:absolute;
@@ -123,9 +130,13 @@ img {
   .form-util .error {
     color: #ff0111;
   }
-  .form-util .msg {
+  .form-util .text {
     font-size:16px;
     text-align:center;
+  }
+  .form-util label {
+    float:left;
+    display:inline;
   }
 
 /* content and its subcontainers sm, med, lg, and xlg */

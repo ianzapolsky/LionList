@@ -17,31 +17,40 @@
 
   <h1 class="centered">forgot password?</h1>
 
-  <form class="thin centered form-util" action="{{ url }}" method="post">
+  <form id="recovery-form" class="thin centered form-util" action="{{ url }}" method="post">
       {% csrf_token %}
-      <p class="msg">Enter your UNI below and we'll email you
+      <p class="text">Enter your UNI below and we'll email you
        a link that will allow you reset your password.</p>
      
-        {% for field in form %}
-          {% if field.errors %}
-           <span class="help-block has-error">
-              {% for error in field.errors %}
-                {% if error == "This field is required." %}
-                  <p class="error">Please enter your UNI.</p>
-                {% else %}
-                  <p class="error">{{ error }}</p>
-                {% endif %}
-              {% endfor %}
-              {% render_field field class+="form-control" placeholder="UNI" %}
-           </span>
-          {% else %}
-          {% render_field field class+="form-control" placeholder="UNI" %}
-          {% endif %}
-        {% endfor %}
-        <button class="btn btn-lg btn-primary btn-block" type="submit">
-          Submit
-        </button>
-      </form>
+      <div id="uni-div">
+      <p class="error" id="uni-label"></p>
+      {% for field in form %}
+        {% if field.errors %}
+          <span class="help-block has-error">
+            {% for error in field.errors %}
+              {% if error == "This field is required." %}
+                <p class="error">Please enter your UNI.</p>
+              {% else %}
+                <p class="error">{{ error }}</p>
+              {% endif %}
+            {% endfor %}
+            {% render_field field id="uni" class+="form-control" placeholder="UNI" %}
+          </span>
+        {% else %}
+          {% render_field field id="uni" class+="form-control" placeholder="UNI" %}
+        {% endif %}
+      {% endfor %}
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">
+        Submit
+      </button>
+    </form>
+
+    <script>
+      $( document ).ready(function() {
+        recover_password.initModule();
+      });
+    </script>
 
 {% endblock %}
 

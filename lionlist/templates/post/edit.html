@@ -18,21 +18,16 @@
         edit <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
       </h1>
 
-      <form class="form-util" enctype="multipart/form-data" action="" 
+      <form id="target-form" class="form-util" enctype="multipart/form-data" action="" 
       method="post">
         {% csrf_token %}
      
-        {% for field in form %}
-          {% if field.errors %}
-            <p class="error">error in {{ field.label }}</p>
-          {% endif %}
-        {% endfor %}        
-
       <table class="super-condensed table table-hover table-condensed">
         {% for field in form %}
           <tr>
             <td>
-              <span class="help-block">{{ field.label }} {{ field.help_text }}</span>
+              <span id="{{ field.name }}-div" class="help-block">{{ field.label }} {{ field.help_text }}
+              <p id="{{ field.name }}-label" class="error"></p>
               {% if field.errors %}
                 <span class="help-block has-error ">
                   {% for error in field.errors %}
@@ -43,6 +38,7 @@
               {% else %}
               {% render_field field class+="form-control" rows="4" %}
               {% endif %}
+              </span>
 
            </td>
          </tr>

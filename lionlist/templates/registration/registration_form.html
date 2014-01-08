@@ -16,7 +16,7 @@
 
       <form id="registration-form" class="thin centered form-util" action="" method="post">
         {% csrf_token %}
-        <p class="msg">When you submit the following information
+        <p class="text">When you submit the following information
         we'll send an activation email to your UNI@columbia.edu 
         <a href="http://lionmail.columbia.edu">lionmail address</a> to confirm 
         that you are a current student/alumnus.</p>
@@ -61,88 +61,10 @@
 
       </form>
 
-  <script>
-  
-    var uni_error = false;
-    var password_error = false;
-    var location_error = false;
-
-    $( '#uni' ).change(function() {
-
-        var username = $( '#uni' ).val();
-
-        $.ajax({
-          url: '/account/ajax/is_username/'+username+'/',
-          type: 'GET',
-          async: true,
-          dataType: 'json',
-          success: function( data ) {
-            if (data.msg === true) { 
-              $( '#uni-label' ).html('A user with that UNI already exists'); 
-              $( '#uni-div' ).removeClass('has-success');
-              $( '#uni-div' ).addClass('has-error');
-              uni_error = true;
-            } else {
-              $( '#uni-label' ).html('');
-              $( '#uni-div' ).removeClass('has-error');
-              $( '#uni-div' ).addClass('has-success');
-              uni_error = false;
-            }
-          }
-        });
+    <script>
+      $( document ).ready(function() {
+        registration.initModule();
       });
-      
-      $( '#password1, #password2' ).change(function() {
-      
-        var password1 = $( '#password1' ).val();
-        var password2 = $( '#password2' ).val();
+    </script>
 
-        $.ajax({
-          url: '/account/ajax/validate_passwords/'+password1+'/'+password2+'/',
-          type: 'GET',
-          async: true,
-          dataType: 'json',
-          success: function( data ) {
-            if (data.error === true) {
-              $( '#password-label' ).html(data.msg); 
-              $( '#password-div' ).removeClass('has-success');
-              $( '#password-div' ).addClass('has-error');
-              password_error = true;
-            } else { 
-              $( '#password-label' ).html('');
-              $( '#password-div' ).removeClass('has-error');
-              $( '#password-div' ).addClass('has-success');
-              password_error = false;
-            }
-          }
-        });
-      });
-
-    $( '#registration-form' ).submit(function(event) {
-      if ($( '#uni' ).val() === '') {
-        $( '#uni-label' ).html('Please enter your UNI');
-        $( '#uni-div' ).removeClass('has-success');
-        $( '#uni-div' ).addClass('has-error');
-        uni_error = true;
-      }
-      if ($( '#password1' ).val() === '' || $( '#password2' ).val() === '') {
-        $( '#password-label' ).html('Please enter and confirm your password');
-        $( '#password-div' ).removeClass('has-success');
-        $( '#password-div' ).addClass('has-error'); 
-        password_error = true;
-      }
-      if ($( '#location' ).val() === 'empty') {
-        $( '#location-label' ).html('Please enter your campus location');
-        $( '#location-div' ).removeClass('has-success');
-        $( '#location-div' ).addClass('has-error'); 
-        location_error = true;
-      }
-      if (uni_error === true || password_error === true || location_error === true) {
-        event.preventDefault();
-      }
-    });
-
-  </script>
-
-    
 {% endblock %}

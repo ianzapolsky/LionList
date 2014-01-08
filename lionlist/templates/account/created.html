@@ -14,13 +14,9 @@
   <section class="xlg">
     <h1>my posts</h1>
 
-    <table class="table table-condensed">
-      {% for msg in messages %}
-        <tr class="msg">
-          <td>{{ msg }}</td>
-        </tr>
-      {% endfor %}
-    </table>
+    {% for msg in messages %}
+      <p class="msg">{{ msg }}</p>
+    {% endfor %}
 
     <table class="table table-condensed">
   

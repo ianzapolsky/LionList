@@ -3,6 +3,7 @@
 #
 # django imports
 from django.contrib import messages
+from django.core.validators import email_re
 from django.template import RequestContext
 from django.shortcuts import render_to_response, render
 from django.views.generic import View
@@ -149,7 +150,8 @@ class CustomRegistrationView(registration.backends.default.views.RegistrationVie
         return new_user
 
 
-# ajax experiment
+# ajax methods
+
 def is_username(request, username):
 
     response_data = {}
@@ -183,17 +185,32 @@ def validate_passwords(request, password1, password2):
     response_data = {}
 
     if len(password1) < 5:
-        response_data['error'] = True;
+        response_data['error'] = True
         response_data['msg'] = 'Your password must be at least 5 characters long.'
     else:
         if password1 != password2:
-            response_data['error'] = True;
+            response_data['error'] = True
             response_data['msg'] = 'Your passwords do not match.'
         else:
-            response_data['error'] = False;
+            response_data['error'] = False
 
     return HttpResponse(json.dumps(response_data),
                         content_type="application/json")
+
+def is_valid_email(request, email):
+    
+    response_data = {}
+
+    if not email_re.match(email):
+        response_data['error'] = True
+        response_data['msg'] = 'Not a valid email address'
+    else:
+        response_data['error'] = False
+        response_data['msg'] = ''
+
+    return HttpResponse(json.dumps(response_data),
+                        content_type="application/json")
+  
     
         
         
