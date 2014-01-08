@@ -25,6 +25,7 @@
           <tr class="wanted" href="{{ result.object.get_absolute_url }}">
             <td class="left"><a href="{{ result.object.get_absolute_url }}">{{ result.object.title }}</a></td>
           <td class="cntr">{{ result.object.forsale }} for ${{ result.object.price }}</td>
+        {% endif %}
         </tr>
       {% empty %}
         <tr class="msg">
