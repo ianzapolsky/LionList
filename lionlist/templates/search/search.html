@@ -24,7 +24,7 @@
         {% else %}
           <tr class="wanted" href="{{ result.object.get_absolute_url }}">
         {% endif %}
-        <td class="left"><a href="{{ result.object.get_absolute_url }}">{{ result.object.title }}</a></td>
+        <td class="left"><a>{{ result.object.title }}</a></td>
         <td class="cntr">{{ result.object.forsale }} for ${{ result.object.price }}</td>
         </tr>
       {% empty %}
@@ -74,5 +74,13 @@
     <p>You can search for general posts by keywords in the title and description,
        book posts by title and author name, and courses by course name.</p>
     </section>
+    
+    <script>
+      
+    $( ".item, .wanted" ).click(function() {
+      window.document.location = $( this ).attr("href");
+    });
+
+    </script>
 
 {% endblock %}
