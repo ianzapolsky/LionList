@@ -12,19 +12,19 @@
 
 {% block content %}
 
-  <section class="med">
+  <section class="lg">
     <h1><a href="/courses/">courses</a>/<a href="{{ course.get_absolute_url }}">{{ course.name }}</a>
     </h1>
 
     <table class="table table-condensed">
 	  {% for post in object_list %}
         {% if post.forsale == "forsale" %}
-        <tr class="item">
+        <tr class="item" href="{{ post.get_absolute_url }}">
         {% else %}
-        <tr class="wanted">
+        <tr class="wanted" href="{{ post.get_absolute_url }}">
         {% endif %}
           <td class="left">
-            <a href="{{ post.get_absolute_url }}/">{{ post.title }}</a>
+            <a>{{ post.title }}</a>
           </td>
           <td class="cntr">{{ post.forsale }} for ${{ post.price }}</td>
         </tr>
@@ -65,5 +65,14 @@
   </form>
 
   </section>
+
+  <script>
+
+  $( ".item, .wanted" ).click(function() {
+    window.document.location = $( this ).attr("href");
+  });
+
+  </script>
+
 
 {% endblock %}
